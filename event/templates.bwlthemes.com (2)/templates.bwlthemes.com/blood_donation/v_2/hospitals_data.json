@@ -1,0 +1,1598 @@
+[
+    {
+        "governorate": "1",
+        "hospital_name": "القاهرة",
+        "phone": "شبرا العام",
+        "address": "22352325",
+        "details": "76 ش المستشفى - شبرا ( داخل مستشفى شبرا العام - كتشنر )"
+    },
+    {
+        "governorate": "2",
+        "hospital_name": "القاهرة",
+        "phone": "المنيرة",
+        "address": "23910230",
+        "details": "2 ش نوبار السيدة ( داخل مستشفى المنيرة العام )"
+    },
+    {
+        "governorate": "3",
+        "hospital_name": "القاهرة",
+        "phone": "منشية البكري",
+        "address": "22580946",
+        "details": "ش جسر السويس ( داخل مستشفى منشية البكرى العام )"
+    },
+    {
+        "governorate": "4",
+        "hospital_name": "القاهرة",
+        "phone": "دار السلام المركزي",
+        "address": "22367769",
+        "details": "987 ش كورنيش النيل - الملك الصالح ( داخل مستشفى دار السلام العام - هرمل )"
+    },
+    {
+        "governorate": "5",
+        "hospital_name": "القاهرة",
+        "phone": "الخازندارة",
+        "address": "22057593",
+        "details": "3 ش شيبان - شبرا ( داخل مستشفى الخازندارة العام )"
+    },
+    {
+        "governorate": "6",
+        "hospital_name": "القاهرة",
+        "phone": "بولاق العام",
+        "address": "25755211",
+        "details": "ش المطبعة الاهلية - السبتة ( داخل مستشفى بولاق العلا العام )"
+    },
+    {
+        "governorate": "7",
+        "hospital_name": "القاهرة",
+        "phone": "صدر العباسية",
+        "address": "23425248",
+        "details": "ش السكة البيضاء - العباسية ( داخل مستشفى صدر العباسية )"
+    },
+    {
+        "governorate": "8",
+        "hospital_name": "القاهرة",
+        "phone": "الزاوية الحمراء",
+        "address": "24248004",
+        "details": "ش المستشفى بجوار مركز شباب الزاوية ( داخل مستشفى الزاوية العام )"
+    },
+    {
+        "governorate": "9",
+        "hospital_name": "القاهرة",
+        "phone": "حلوان العام",
+        "address": "25564492",
+        "details": "ش فيض خلف الحديقة اليابانية ( داخل مستشفى حلوان العام )"
+    },
+    {
+        "governorate": "10",
+        "hospital_name": "القاهرة",
+        "phone": "حميات العباسية",
+        "address": "23425126",
+        "details": "ش امتداد رمسيس - العباسية ( اخل مستشفى حميات العباسية )"
+    },
+    {
+        "governorate": "11",
+        "hospital_name": "القاهرة",
+        "phone": "الشيخ زايد منشية ناصر",
+        "address": "38502523",
+        "details": "منشاة ناصر - طريق الاورستراد ( داخل مستشفى الشيخ زايد ال نهيان العام )"
+    },
+    {
+        "governorate": "12",
+        "hospital_name": "القاهرة",
+        "phone": "القاهرة الجديدة",
+        "address": "27594306",
+        "details": "القاهرة الجديدة"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "13",
+        "hospital_name": "الجيزة",
+        "phone": "ام المصريين",
+        "address": "35733898",
+        "details": "ش ربيع الجيزي ميدان أم المصريين"
+    },
+    {
+        "governorate": "14",
+        "hospital_name": "الجيزة",
+        "phone": "امبابة العام",
+        "address": "33040116",
+        "details": "ش محمود رحمي (الثابت سابقا) بجوار معهد القلب"
+    },
+    {
+        "governorate": "15",
+        "hospital_name": "الجيزة",
+        "phone": "بولاق الدكرور العام",
+        "address": "37345455",
+        "details": "ش ترعة الزمر بجوار قسم شرطة بولاق الدكرور"
+    },
+    {
+        "governorate": "16",
+        "hospital_name": "الجيزة",
+        "phone": "الحوامدية العام",
+        "address": "38114164",
+        "details": "طريق مصر اسيوط مدينة الحوامدية - الجيزة"
+    },
+    {
+        "governorate": "17",
+        "hospital_name": "الجيزة",
+        "phone": "صــدر الجيزة",
+        "address": "35610380",
+        "details": "ش ترعة الزمر العمرانية الغربية"
+    },
+    {
+        "governorate": "18",
+        "hospital_name": "الجيزة",
+        "phone": "التحرير العام بامبابة",
+        "address": "37110046",
+        "details": "ش نصوح باشا بجوار المطابع الاميرية إمبابة"
+    },
+    {
+        "governorate": "19",
+        "hospital_name": "الجيزة",
+        "phone": "البدرشين المركزى",
+        "address": "38020526",
+        "details": "البدرشين -ش مصر أسيوط السريع"
+    },
+    {
+        "governorate": "20",
+        "hospital_name": "الجيزة",
+        "phone": "العيــــــــــاط المركزى",
+        "address": "38606443",
+        "details": "العياط ش الجيش طريق مصر أسيوط الزراعي -الجيزة"
+    },
+    {
+        "governorate": "21",
+        "hospital_name": "الجيزة",
+        "phone": "أوسيـــــــم المركزى",
+        "address": "38709724",
+        "details": "ش الخليفة المأمون - اوسيم - جيزة"
+    },
+    {
+        "governorate": "22",
+        "hospital_name": "الجيزة",
+        "phone": "أبو النمرس المركزى",
+        "address": "38091789",
+        "details": "مدينة أبو النمرس محافظة الجيزة"
+    },
+    {
+        "governorate": "23",
+        "hospital_name": "الجيزة",
+        "phone": "الصف",
+        "address": "38622086",
+        "details": "مدينة الصف الجيزة"
+    },
+    {
+        "governorate": "24",
+        "hospital_name": "الجيزة",
+        "phone": "السادس من أكتوبر",
+        "address": "38322180",
+        "details": "ميدان فودافون مدينة 6 أكتوبر"
+    },
+    {
+        "governorate": "25",
+        "hospital_name": "الجيزة",
+        "phone": "أطفيح",
+        "address": "38412301",
+        "details": "مركز أطفيح الجيزة"
+    },
+    {
+        "governorate": "26",
+        "hospital_name": "الجيزة",
+        "phone": "الواحات البحرية",
+        "address": "38470122",
+        "details": "الباويطي الوحات البحرية"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "27",
+        "hospital_name": "القليوبية",
+        "phone": "شبرا الخيمة العام( ناصر العام )",
+        "address": "42201743",
+        "details": "ش مستشفى ناصر العام خلف كريستال عصفور شبرا الخيمة"
+    },
+    {
+        "governorate": "28",
+        "hospital_name": "القليوبية",
+        "phone": "طـــــــــوخ المركزى",
+        "address": "013/2460131",
+        "details": "بجوار طوخ طريق مصر اسكندرية الزراعى"
+    },
+    {
+        "governorate": "29",
+        "hospital_name": "القليوبية",
+        "phone": "كفر شكر المركزى",
+        "address": "013/2520057",
+        "details": "طريق القليوبية المنصورة الزراعى"
+    },
+    {
+        "governorate": "30",
+        "hospital_name": "القليوبية",
+        "phone": "قليوب المركزى",
+        "address": "013/2520057",
+        "details": "ش العاشر من رمضان بجوار قليوب المحطة"
+    },
+    {
+        "governorate": "31",
+        "hospital_name": "القليوبية",
+        "phone": "القناطر الخيرية المركزى",
+        "address": "42188750",
+        "details": "بالتقسيم السياحى بالقناطر بجوار مجلس المدينة"
+    },
+    {
+        "governorate": "32",
+        "hospital_name": "القليوبية",
+        "phone": "شبين القناطر المركزى",
+        "address": "013/2720011",
+        "details": "عزبة الوكلاء"
+    },
+    {
+        "governorate": "33",
+        "hospital_name": "القليوبية",
+        "phone": "الخانكة المركزى",
+        "address": "44698987",
+        "details": "ش المحطة بالخانكة"
+    },
+    {
+        "governorate": "34",
+        "hospital_name": "القليوبية",
+        "phone": "قها المركزي",
+        "address": "013/2601049",
+        "details": "مدينةقها بجوار مجلس مدينة قها شارع مجلس المدينة"
+    },
+    {
+        "governorate": "35",
+        "hospital_name": "القليوبية",
+        "phone": "بهتيم المركزي",
+        "address": "48241726",
+        "details": "135 ش بهتين العمومى خلف محطة الكهرباء حى شرق شبرا الخيمة"
+    },
+    {
+        "governorate": "36",
+        "hospital_name": "القليوبية",
+        "phone": "أبو المنجـا",
+        "address": "44449335",
+        "details": "اول طريق القناطر بجوار مصنع ياسين"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "37",
+        "hospital_name": "الاسكندرية",
+        "phone": "ابو قير",
+        "address": "03/5624444",
+        "details": "ابوقير البلد"
+    },
+    {
+        "governorate": "38",
+        "hospital_name": "الاسكندرية",
+        "phone": "برج العرب",
+        "address": "03/4595036",
+        "details": "برج العرب الجديدة امام قسم الشرطة"
+    },
+    {
+        "governorate": "39",
+        "hospital_name": "الاسكندرية",
+        "phone": "العامرية المركزي",
+        "address": "03/4480013",
+        "details": "اسكندرية العامرية شارع الحج شرقاوى"
+    },
+    {
+        "governorate": "40",
+        "hospital_name": "الاسكندرية",
+        "phone": "دار اسماعيل",
+        "address": "03/3612806",
+        "details": ""
+    },
+    {
+        "governorate": "41",
+        "hospital_name": "الاسكندرية",
+        "phone": "الحميات",
+        "address": "03/4290970",
+        "details": "امبروزو - الحضره"
+    },
+    {
+        "governorate": "42",
+        "hospital_name": "الاسكندرية",
+        "phone": "راس التين",
+        "address": "03/4860574",
+        "details": "ش ثصر راس التين بجوار ثصر ثقافه الانفوشى"
+    },
+    {
+        "governorate": "43",
+        "hospital_name": "الاسكندرية",
+        "phone": "الجمهورية",
+        "address": "03/3624238",
+        "details": "ش قنال المحمودية امام كوبرى راغب"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "44",
+        "hospital_name": "الغربية",
+        "phone": "المنشاوي العام",
+        "address": "040/3313280",
+        "details": "طنطا ش التكية"
+    },
+    {
+        "governorate": "45",
+        "hospital_name": "الغربية",
+        "phone": "المحلة الكبري العام",
+        "address": "040/2223181",
+        "details": "المحلة الكبرى ش 6 اكتوبر"
+    },
+    {
+        "governorate": "46",
+        "hospital_name": "الغربية",
+        "phone": "زفتي العام",
+        "address": "040/5703065",
+        "details": "زفتى ش الجيش بجوار مرور زفتى"
+    },
+    {
+        "governorate": "47",
+        "hospital_name": "الغربية",
+        "phone": "سمنود المركزي",
+        "address": "040/2971989",
+        "details": "سمنود المستشفى"
+    },
+    {
+        "governorate": "48",
+        "hospital_name": "الغربية",
+        "phone": "كفر الزيات",
+        "address": "040/2534025",
+        "details": ""
+    },
+    {
+        "governorate": "49",
+        "hospital_name": "الغربية",
+        "phone": "السنطة المركزي",
+        "address": "040/5476645",
+        "details": ""
+    },
+    {
+        "governorate": "50",
+        "hospital_name": "الغربية",
+        "phone": "قطور المركزي",
+        "address": "040/2766689",
+        "details": "قطور ش الجيش طريق طنطا كفر الشيخ سابقا"
+    },
+    {
+        "governorate": "51",
+        "hospital_name": "الغربية",
+        "phone": "بسيون المركزي",
+        "address": "040/2732875",
+        "details": "بسيون ش 23 يوليو قريب من ادارة التأمين"
+    },
+    {
+        "governorate": "52",
+        "hospital_name": "الغربية",
+        "phone": "صدر المحلة الكبري",
+        "address": "040/2420068",
+        "details": "المحلة الكبرى ش 6 اكتوبر"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "53",
+        "hospital_name": "الشرقية",
+        "phone": "بلبيس المركزي",
+        "address": "055/2848304",
+        "details": ""
+    },
+    {
+        "governorate": "54",
+        "hospital_name": "الشرقية",
+        "phone": "فاقوس المركزي",
+        "address": "055/3972760",
+        "details": ""
+    },
+    {
+        "governorate": "55",
+        "hospital_name": "الشرقية",
+        "phone": "أبوحماد المركزي",
+        "address": "055/3417782",
+        "details": ""
+    },
+    {
+        "governorate": "56",
+        "hospital_name": "الشرقية",
+        "phone": "منيا القمح",
+        "address": "055/3668400",
+        "details": "ش جمال عبد الناصر منيا القمح بجوار مدرسة جمال عبد الناصر الثانوية"
+    },
+    {
+        "governorate": "57",
+        "hospital_name": "الشرقية",
+        "phone": "أبو كبير المركزي",
+        "address": "055/2303745",
+        "details": "م ابو كبير"
+    },
+    {
+        "governorate": "58",
+        "hospital_name": "الشرقية",
+        "phone": "م. مشتول السوق",
+        "address": "055/2573323",
+        "details": "ش المدينة المنورة بجوار البنك الاهلى المصرى"
+    },
+    {
+        "governorate": "59",
+        "hospital_name": "الشرقية",
+        "phone": "كفر صقر المركزى",
+        "address": "055/3186088",
+        "details": "م كفر صقر"
+    },
+    {
+        "governorate": "60",
+        "hospital_name": "الشرقية",
+        "phone": "ديرب نجم المركزي",
+        "address": "055/3769623",
+        "details": "م ديرب نجم"
+    },
+    {
+        "governorate": "61",
+        "hospital_name": "الشرقية",
+        "phone": "ههيا المركزي",
+        "address": "055/2564363",
+        "details": "م هيها"
+    },
+    {
+        "governorate": "62",
+        "hospital_name": "الشرقية",
+        "phone": "الزوامل المركزي",
+        "address": "055/2820113",
+        "details": "م الزوامل"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "63",
+        "hospital_name": "البحيرة",
+        "phone": "كفر الدوار المركزي",
+        "address": "045/2212186",
+        "details": "قبل الكوبرى العلوى كفر الدوار"
+    },
+    {
+        "governorate": "64",
+        "hospital_name": "البحيرة",
+        "phone": "أيتاي البارود المركزي",
+        "address": "045/3432386",
+        "details": "ش الجمهورية- ايتاي البارود"
+    },
+    {
+        "governorate": "65",
+        "hospital_name": "البحيرة",
+        "phone": "المحمودية المركزي",
+        "address": "045/2505250",
+        "details": "مدينة المحمودية"
+    },
+    {
+        "governorate": "66",
+        "hospital_name": "البحيرة",
+        "phone": "كوم حماده المركزي",
+        "address": "045/3686673",
+        "details": "مركز كوم حمادة -شارع الثورة"
+    },
+    {
+        "governorate": "67",
+        "hospital_name": "البحيرة",
+        "phone": "رشيد المركزي",
+        "address": "045/2920404",
+        "details": "رشيد شارع البحر"
+    },
+    {
+        "governorate": "68",
+        "hospital_name": "البحيرة",
+        "phone": "ابو حمص العام",
+        "address": "045/2560130",
+        "details": "ابوحمص - شارع البحر"
+    },
+    {
+        "governorate": "69",
+        "hospital_name": "البحيرة",
+        "phone": "وادي النطرون المركزي",
+        "address": "045/3551903",
+        "details": "وادى النطرون ــ طريق مصر اسكندرية الصحراوى ــ ك 108"
+    },
+    {
+        "governorate": "70",
+        "hospital_name": "البحيرة",
+        "phone": "الدلنجات المركزي",
+        "address": "045/3606319",
+        "details": "الدلنجات - طريق الدلنجات دمهنور"
+    },
+    {
+        "governorate": "71",
+        "hospital_name": "البحيرة",
+        "phone": "أبو المطامير المركزي",
+        "address": "045/2403335",
+        "details": "أبو المطامير ش. المركز"
+    },
+    {
+        "governorate": "72",
+        "hospital_name": "البحيرة",
+        "phone": "بدر التحرير المركزي",
+        "address": "045/3620335",
+        "details": "مركز بدر -التجرير الجنوبي -بحيرة"
+    },
+    {
+        "governorate": "73",
+        "hospital_name": "البحيرة",
+        "phone": "الرحمانية",
+        "address": "045/2850814",
+        "details": "الرحمانيه بحيره"
+    },
+    {
+        "governorate": "74",
+        "hospital_name": "البحيرة",
+        "phone": "شبرا خيت",
+        "address": "045/3805363",
+        "details": "شبراخيت ش محمود ابو شلوع"
+    },
+    {
+        "governorate": "75",
+        "hospital_name": "البحيرة",
+        "phone": "ادكو",
+        "address": "045/2916037",
+        "details": "ادكوشارع السيد عبد الجليل"
+    },
+    {
+        "governorate": "76",
+        "hospital_name": "البحيرة",
+        "phone": "حوش عيسى",
+        "address": "045/2703927",
+        "details": "ش الجمهورية - حوش عيسى - البحيرة"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "77",
+        "hospital_name": "مرسي مطروح",
+        "phone": "مطروح العام",
+        "address": "046/4939494",
+        "details": "اول شارع اسكندرية بمدينة بمطروح"
+    },
+    {
+        "governorate": "78",
+        "hospital_name": "مرسي مطروح",
+        "phone": "رأس الحكمة",
+        "address": "046/4500063",
+        "details": "طريق مطروح اسكندرية الكيلو 67"
+    },
+    {
+        "governorate": "79",
+        "hospital_name": "مرسي مطروح",
+        "phone": "سيوة",
+        "address": "046/4600459",
+        "details": "بجوار القرية الالومبيه بمدينة سيوه"
+    },
+    {
+        "governorate": "80",
+        "hospital_name": "مرسي مطروح",
+        "phone": "سيدي براني",
+        "address": "046/4400070",
+        "details": "مدينة برانى"
+    },
+    {
+        "governorate": "81",
+        "hospital_name": "مرسي مطروح",
+        "phone": "العلمين",
+        "address": "046/4100212",
+        "details": "الكيلو 100 طريق اسكندريه مطروح"
+    },
+    {
+        "governorate": "82",
+        "hospital_name": "مرسي مطروح",
+        "phone": "السلوم",
+        "address": "046/4800020",
+        "details": "بجوار بنك الاهلى المصرى بمدينة السلوم"
+    },
+    {
+        "governorate": "83",
+        "hospital_name": "مرسي مطروح",
+        "phone": "م. الحمام المركزي",
+        "address": "046/4750844",
+        "details": "أول شارع اسكندريه بمدينة الحمام"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "84",
+        "hospital_name": "كفر الشيخ",
+        "phone": "بيلا المركزي",
+        "address": "047/3605661",
+        "details": "ش المستشفى بجوار الاصلاح الزراعى ملتقى ش الثورة"
+    },
+    {
+        "governorate": "85",
+        "hospital_name": "كفر الشيخ",
+        "phone": "قلين المركزي",
+        "address": "047/3400482",
+        "details": "م قلين المركزى"
+    },
+    {
+        "governorate": "86",
+        "hospital_name": "كفر الشيخ",
+        "phone": "بلطيم المركزي",
+        "address": "047/2510860",
+        "details": "م بلطيم المركزى"
+    },
+    {
+        "governorate": "87",
+        "hospital_name": "كفر الشيخ",
+        "phone": "دسوق المركزي",
+        "address": "047/2563550",
+        "details": "م دسوق العام"
+    },
+    {
+        "governorate": "88",
+        "hospital_name": "كفر الشيخ",
+        "phone": "مطوبس المركزي",
+        "address": "047/2710821",
+        "details": "م مطوبس المركزى"
+    },
+    {
+        "governorate": "89",
+        "hospital_name": "كفر الشيخ",
+        "phone": "الرياض",
+        "address": "047/3810415",
+        "details": "م الرياض المركزى"
+    },
+    {
+        "governorate": "90",
+        "hospital_name": "كفر الشيخ",
+        "phone": "سيدي سالم المركزي",
+        "address": "047/2706938",
+        "details": "م سيدى سالم المركزى"
+    },
+    {
+        "governorate": "91",
+        "hospital_name": "كفر الشيخ",
+        "phone": "كفر الشيخ العام",
+        "address": "047/3232698",
+        "details": "مستشفى كفر الشيخ بجوار عمارات الاوقاف كفر الشيخ"
+    },
+    {
+        "governorate": "92",
+        "hospital_name": "كفر الشيخ",
+        "phone": "فوه المركزي",
+        "address": "047/2976777",
+        "details": "م فوة المركزى"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "93",
+        "hospital_name": "دمياط",
+        "phone": "دمياط الرئيسي",
+        "address": "057/2332096",
+        "details": "ش كورنيش النيل مستشفى دمياط التخصصى"
+    },
+    {
+        "governorate": "94",
+        "hospital_name": "دمياط",
+        "phone": "كفر سعد",
+        "address": "057/3602633",
+        "details": "الطر يق الفسريع المنصورة دمياط بجوار مصنع الزيت والصابون"
+    },
+    {
+        "governorate": "95",
+        "hospital_name": "دمياط",
+        "phone": "دمياط العام",
+        "address": "057/2224340",
+        "details": "ش كورنيش النيل امام مبنى المحافظة"
+    },
+    {
+        "governorate": "96",
+        "hospital_name": "دمياط",
+        "phone": "فارسكور المركزي",
+        "address": "057/3442354",
+        "details": "ش مطحن الارز بجوار شرطة فارسكور"
+    },
+    {
+        "governorate": "97",
+        "hospital_name": "دمياط",
+        "phone": "الزرقا",
+        "address": "057/3858567",
+        "details": "ش الثورة مستشفى الزرقا"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "98",
+        "hospital_name": "الوادي الجديد",
+        "phone": "الداخله المركزي",
+        "address": "092/7821555",
+        "details": "ش جمال عبد الناصر مدينة موط"
+    },
+    {
+        "governorate": "99",
+        "hospital_name": "الوادي الجديد",
+        "phone": "الفرافرة",
+        "address": "092/7510047",
+        "details": "مركز ومدينة الفرافرة بجوار الوحدة المحلية"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "100",
+        "hospital_name": "البحر الاحمر",
+        "phone": "الغردقة",
+        "address": "065/3546841",
+        "details": "الغردقة ش المستشفى بجوار قرية شدوان"
+    },
+    {
+        "governorate": "101",
+        "hospital_name": "البحر الاحمر",
+        "phone": "راس غارب",
+        "address": "065/3624650",
+        "details": "راس غارب بجوار السنترال"
+    },
+    {
+        "governorate": "102",
+        "hospital_name": "البحر الاحمر",
+        "phone": "القصير المركزي",
+        "address": "065/3330070",
+        "details": "القصير ش المستشفى"
+    },
+    {
+        "governorate": "103",
+        "hospital_name": "البحر الاحمر",
+        "phone": "سفاجــــــــــــا",
+        "address": "065/3251549",
+        "details": "سفاجا ش مجلس المدينة"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "104",
+        "hospital_name": "شمال سيناء",
+        "phone": "العريش العام",
+        "address": "068/3352938",
+        "details": "ش الجيش امام محطة الكهرباء القديمة"
+    },
+    {
+        "governorate": "105",
+        "hospital_name": "شمال سيناء",
+        "phone": "رفح",
+        "address": "068/3500459",
+        "details": "حى الصفا امام قطاع الامن المركزى"
+    },
+    {
+        "governorate": "106",
+        "hospital_name": "شمال سيناء",
+        "phone": "الشيخ زويد",
+        "address": "068/3500323",
+        "details": "حى الكوثر بالشيخ زويد"
+    },
+    {
+        "governorate": "107",
+        "hospital_name": "شمال سيناء",
+        "phone": "بئر العبد",
+        "address": "068/3540005",
+        "details": "الشارع العام طريق رفح القنطرة"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "108",
+        "hospital_name": "جنوب سيناء",
+        "phone": "طور سيناء",
+        "address": "069/3770320",
+        "details": "ش طابا طور سيناء امام موقف اتوبيس شرق الدلتا"
+    },
+    {
+        "governorate": "109",
+        "hospital_name": "جنوب سيناء",
+        "phone": "نويبع",
+        "address": "069/3500302",
+        "details": "مدينة نويبع امام مركز شباب نوبيع"
+    },
+    {
+        "governorate": "110",
+        "hospital_name": "جنوب سيناء",
+        "phone": "دهب",
+        "address": "069/3640208",
+        "details": "بجوار مجلس المدينة"
+    },
+    {
+        "governorate": "111",
+        "hospital_name": "جنوب سيناء",
+        "phone": "رأس سدر",
+        "address": "069/3400214",
+        "details": "ش الشاليهات"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "112",
+        "hospital_name": "بورسعيد",
+        "phone": "بور فؤاد العام",
+        "address": "066/3400848",
+        "details": "منطقة العبور بورسعيد"
+    },
+    {
+        "governorate": "113",
+        "hospital_name": "بورسعيد",
+        "phone": "بور سعيد العام",
+        "address": "066/3237231",
+        "details": "تقاطع صفية زغلول والشهيد محسن السيد"
+    },
+    {
+        "governorate": "114",
+        "hospital_name": "بورسعيد",
+        "phone": "بورسعيد الرئيسي",
+        "address": "066/3221605",
+        "details": "ش صفية زغلول بجوار مجمع المعامل"
+    },
+    {
+        "governorate": "115",
+        "hospital_name": "بورسعيد",
+        "phone": "النصر",
+        "address": "066/3230587",
+        "details": "تقاطع عبد الهادى الحريرى طريق النصر"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "116",
+        "hospital_name": "الاسماعيلية",
+        "phone": "التل الكبير المركزي",
+        "address": "064/3961636",
+        "details": "مدينة التل الكبير شارع احمد عرابى"
+    },
+    {
+        "governorate": "117",
+        "hospital_name": "الاسماعيلية",
+        "phone": "القنطره غرب",
+        "address": "064/3561029",
+        "details": "مدينة القنطرة غرب بجوار محطة المياة"
+    },
+    {
+        "governorate": "118",
+        "hospital_name": "الاسماعيلية",
+        "phone": "القصاصين المركزي",
+        "address": "064/3440021",
+        "details": "مدينة القصاصين بجوار الكهرباء"
+    },
+    {
+        "governorate": "119",
+        "hospital_name": "الاسماعيلية",
+        "phone": "فايد المركزي",
+        "address": "064/3661038",
+        "details": "مدينة فايد بجوار مجلس المدينة"
+    },
+    {
+        "governorate": "120",
+        "hospital_name": "الاسماعيلية",
+        "phone": "الاسماعلية العام",
+        "address": "064/3213914",
+        "details": "المرحلة السابعة الطريق الدائرى"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "121",
+        "hospital_name": "السويس",
+        "phone": "السويس العام",
+        "address": "062/3331190",
+        "details": "ش صلاح الدين مستشفى السويس العام"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "122",
+        "hospital_name": "الفيوم",
+        "phone": "الفيوم العام",
+        "address": "084/6333122",
+        "details": "مستشفى النبوى المهندس المسلة"
+    },
+    {
+        "governorate": "123",
+        "hospital_name": "الفيوم",
+        "phone": "سنورس المركزي",
+        "address": "084/6900808",
+        "details": "مدينة سنورس"
+    },
+    {
+        "governorate": "124",
+        "hospital_name": "الفيوم",
+        "phone": "أبشواي المركزي",
+        "address": "084/6719574",
+        "details": "مدينة ابشواى"
+    },
+    {
+        "governorate": "125",
+        "hospital_name": "الفيوم",
+        "phone": "طامية المركزي",
+        "address": "084/6610715",
+        "details": "مدينة طامية"
+    },
+    {
+        "governorate": "126",
+        "hospital_name": "الفيوم",
+        "phone": "أطسا المركزي",
+        "address": "084/6410612",
+        "details": "مدينة اطسا"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "127",
+        "hospital_name": "بني سويف",
+        "phone": "بني سويف العام",
+        "address": "082/2323243",
+        "details": "مدينة بنى سويف شارع كورنيش النيل"
+    },
+    {
+        "governorate": "128",
+        "hospital_name": "بني سويف",
+        "phone": "الفشن المركزي",
+        "address": "082/7660548",
+        "details": "بنى سويف مدينة الفشن شارع المستشفى"
+    },
+    {
+        "governorate": "129",
+        "hospital_name": "بني سويف",
+        "phone": "الواسطي المركزي",
+        "address": "082/2517789",
+        "details": "بنى سويف مدينة الواسطى شارع احمد عرابى"
+    },
+    {
+        "governorate": "130",
+        "hospital_name": "بني سويف",
+        "phone": "ناصر المركزي",
+        "address": "082/5827950",
+        "details": "بنى سويف مدينة ناصر شارع جمال عبد الناصر امام البنك الاهلى المصرى"
+    },
+    {
+        "governorate": "131",
+        "hospital_name": "بني سويف",
+        "phone": "أهناسيا المركزي",
+        "address": "082/5725888",
+        "details": "بنى سويف اهانسبا المدينة شارع المستشفى"
+    },
+    {
+        "governorate": "132",
+        "hospital_name": "بني سويف",
+        "phone": "ببا المركزي",
+        "address": "082/4400929",
+        "details": "بنى سويف شارع المستشفى امام المعهد الدينى"
+    },
+    {
+        "governorate": "133",
+        "hospital_name": "بني سويف",
+        "phone": "سمسطا المركزي",
+        "address": "082/7606284",
+        "details": "بنى سويف سمسطا شارع المستشفى بجوار صيدلية الاسعاف"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "134",
+        "hospital_name": "اسيوط",
+        "phone": "اسيوط العام",
+        "address": "088/2338210",
+        "details": "ميدان المجذوب اسيوط"
+    },
+    {
+        "governorate": "135",
+        "hospital_name": "اسيوط",
+        "phone": "الايمان العام",
+        "address": "088/2332671",
+        "details": "الطريق الدائرى بالاربعين اسيوط"
+    },
+    {
+        "governorate": "136",
+        "hospital_name": "اسيوط",
+        "phone": "ديروط المركزي",
+        "address": "088/4784800",
+        "details": "ش بورسعيد ديروط اسيوط"
+    },
+    {
+        "governorate": "137",
+        "hospital_name": "اسيوط",
+        "phone": "القوصية المركزي",
+        "address": "088/4751722",
+        "details": "ش المستشفى - القوصية"
+    },
+    {
+        "governorate": "138",
+        "hospital_name": "اسيوط",
+        "phone": "منفلوط المركزي",
+        "address": "088/4709805",
+        "details": "ش جمال عبد الناصر اسيوط"
+    },
+    {
+        "governorate": "139",
+        "hospital_name": "اسيوط",
+        "phone": "أبو تيج المركزي",
+        "address": "088/2480777",
+        "details": "ش الجلاء بجوار المحكمة"
+    },
+    {
+        "governorate": "140",
+        "hospital_name": "اسيوط",
+        "phone": "صدفا المركزي",
+        "address": "088/2670777",
+        "details": "ش الجيش بصدفة"
+    },
+    {
+        "governorate": "141",
+        "hospital_name": "اسيوط",
+        "phone": "أبنوب المركزي",
+        "address": "088/2507116",
+        "details": "ش بورسعيد - ابنوب"
+    },
+    {
+        "governorate": "142",
+        "hospital_name": "اسيوط",
+        "phone": "الغنايم المركزي",
+        "address": "088/2650045",
+        "details": "بحرى ش الجمهورية"
+    },
+    {
+        "governorate": "143",
+        "hospital_name": "اسيوط",
+        "phone": "البداري المركزي",
+        "address": "088/2608111",
+        "details": "ش الدواوين -- البدارى"
+    },
+    {
+        "governorate": "144",
+        "hospital_name": "اسيوط",
+        "phone": "ساحل سليم المركزي",
+        "address": "088/2631888",
+        "details": "شارع 23 يولية ساحل سليم"
+    },
+    {
+        "governorate": "145",
+        "hospital_name": "اسيوط",
+        "phone": "النساء و الولادة",
+        "address": "088/2284549",
+        "details": "ش 26 يولية اسيوط"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "146",
+        "hospital_name": "قنا",
+        "phone": "قنا العام",
+        "address": "096/5332043",
+        "details": "قنا- ش كوبرى دندرة"
+    },
+    {
+        "governorate": "147",
+        "hospital_name": "قنا",
+        "phone": "نجع حمادي المركزي",
+        "address": "096/6580622",
+        "details": "نجع حمادى - نهاية شارع التحرير"
+    },
+    {
+        "governorate": "148",
+        "hospital_name": "قنا",
+        "phone": "أبو تشت المركزي",
+        "address": "096/6710605",
+        "details": "ابو تشت - ش بورسعيد"
+    },
+    {
+        "governorate": "149",
+        "hospital_name": "قنا",
+        "phone": "فرشوط المركزي",
+        "address": "096/6751527",
+        "details": "فرشوط - ش بورسعيد"
+    },
+    {
+        "governorate": "150",
+        "hospital_name": "قنا",
+        "phone": "دشنــا المركزى",
+        "address": "096/6749594",
+        "details": "دشنا - ش طراد النيل بالصعايدة"
+    },
+    {
+        "governorate": "151",
+        "hospital_name": "قنا",
+        "phone": "قوص المركزي",
+        "address": "096/6847568",
+        "details": "قوص -ش البحر"
+    },
+    {
+        "governorate": "152",
+        "hospital_name": "قنا",
+        "phone": "نقاده",
+        "address": "096/6600066",
+        "details": "نقادة - ش طراد النيل - امام شبكة الكهرباء"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "153",
+        "hospital_name": "الاقصر",
+        "phone": "الاقصر العام",
+        "address": "095/2272809",
+        "details": "شارع معبد الكرنك بجوار ميدان التجارة"
+    },
+    {
+        "governorate": "154",
+        "hospital_name": "الاقصر",
+        "phone": "اسنا المركزي",
+        "address": "095/2517339",
+        "details": "شارع احمد عرابي بجوار محطة توزيع الكهرباء"
+    },
+    {
+        "governorate": "155",
+        "hospital_name": "الاقصر",
+        "phone": "أرمنت المركزي",
+        "address": "095/2625648",
+        "details": "شارع مصنع السكر بجوار نقطة اسعاف ارمنت الوبورات"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "156",
+        "hospital_name": "سوهاج",
+        "phone": "سوهاج العام",
+        "address": "093/2339797",
+        "details": "سوهاج ش النقراشى"
+    },
+    {
+        "governorate": "157",
+        "hospital_name": "سوهاج",
+        "phone": "جرجا المركزي",
+        "address": "093/4676034",
+        "details": "ش المستشفى"
+    },
+    {
+        "governorate": "158",
+        "hospital_name": "سوهاج",
+        "phone": "طما المركزي",
+        "address": "093/2790713",
+        "details": "ش احمد عرابى"
+    },
+    {
+        "governorate": "159",
+        "hospital_name": "سوهاج",
+        "phone": "المراغه المركزي",
+        "address": "093/2530763",
+        "details": "ش المستشفى"
+    },
+    {
+        "governorate": "160",
+        "hospital_name": "سوهاج",
+        "phone": "المنشاه المركزي",
+        "address": "093/2403597",
+        "details": "ش عبد المنعم رياض"
+    },
+    {
+        "governorate": "161",
+        "hospital_name": "سوهاج",
+        "phone": "البلينا المركزي",
+        "address": "093/4800301",
+        "details": "ش الجمهورية"
+    },
+    {
+        "governorate": "162",
+        "hospital_name": "سوهاج",
+        "phone": "ساقلته المركزي",
+        "address": "093/2511950",
+        "details": "ش المدارس"
+    },
+    {
+        "governorate": "163",
+        "hospital_name": "سوهاج",
+        "phone": "أخميم المركزي",
+        "address": "093/2589263",
+        "details": "طريق سوهاج اخميم"
+    },
+    {
+        "governorate": "164",
+        "hospital_name": "سوهاج",
+        "phone": "جهينه المركزي",
+        "address": "093/4707793",
+        "details": "ش الشهداء"
+    },
+    {
+        "governorate": "165",
+        "hospital_name": "سوهاج",
+        "phone": "دار السلام المركزي",
+        "address": "093/4850333",
+        "details": "بندر دار السلام"
+    },
+    {
+        "governorate": "166",
+        "hospital_name": "سوهاج",
+        "phone": "طهطا المركزي",
+        "address": "093/4772994",
+        "details": "ش صلاح سالم"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "167",
+        "hospital_name": "أسوان",
+        "phone": "كوم أمبو المركزي",
+        "address": "097/3510611",
+        "details": "منطقة السبعين"
+    },
+    {
+        "governorate": "168",
+        "hospital_name": "أسوان",
+        "phone": "أدفو المركزي",
+        "address": "097/4712121",
+        "details": "ش كورنيش النيل"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "169",
+        "hospital_name": "الدقهلية",
+        "phone": "المنصورة العام",
+        "address": "050/2249222",
+        "details": "المنصورة -ش الجمهورية بجوار المعهد الصحى"
+    },
+    {
+        "governorate": "170",
+        "hospital_name": "الدقهلية",
+        "phone": "بلقاس المركزي",
+        "address": "050/2784321",
+        "details": "بلقـاس- بجوار مركز الشرطة"
+    },
+    {
+        "governorate": "171",
+        "hospital_name": "الدقهلية",
+        "phone": "المطرية المركزي",
+        "address": "050/7750343",
+        "details": "المطرية-مجلس المدينة"
+    },
+    {
+        "governorate": "172",
+        "hospital_name": "الدقهلية",
+        "phone": "نبروه المركزي",
+        "address": "050/2400301",
+        "details": "نبروه-ش البحر"
+    },
+    {
+        "governorate": "173",
+        "hospital_name": "الدقهلية",
+        "phone": "منية النصر المركزي",
+        "address": "050/7495555",
+        "details": "منية النصر-ش كلية التربية النوعية"
+    },
+    {
+        "governorate": "174",
+        "hospital_name": "الدقهلية",
+        "phone": "أجا المركزي",
+        "address": "050/6455311",
+        "details": "أجــا-ش بورسعيد"
+    },
+    {
+        "governorate": "175",
+        "hospital_name": "الدقهلية",
+        "phone": "ميت غمر المركزي",
+        "address": "050/6903719",
+        "details": "ميت غمر-ش سكة دقادوس"
+    },
+    {
+        "governorate": "176",
+        "hospital_name": "الدقهلية",
+        "phone": "السنبلاوين",
+        "address": "050/6690010",
+        "details": "السنبلاوين-ارض الجمال"
+    },
+    {
+        "governorate": "177",
+        "hospital_name": "الدقهلية",
+        "phone": "دكرنس المركزي",
+        "address": "050/7481140",
+        "details": "مدينة دكرنس-ش مجلس المدينة"
+    },
+    {
+        "governorate": "178",
+        "hospital_name": "الدقهلية",
+        "phone": "المنزلة المركزي",
+        "address": "050/7702903",
+        "details": "المنزلة-ش الطريق الزراعى كوبرى المنزلة الجديدة"
+    },
+    {
+        "governorate": "179",
+        "hospital_name": "الدقهلية",
+        "phone": "شربين المركزي",
+        "address": "050/7925934",
+        "details": "شربين- ش البحر"
+    },
+    {
+        "governorate": "180",
+        "hospital_name": "الدقهلية",
+        "phone": "طلخا المركزي",
+        "address": "050/2523131",
+        "details": "طلخا- ش البحر"
+    },
+    {
+        "governorate": "181",
+        "hospital_name": "الدقهلية",
+        "phone": "الجمالية المركزي",
+        "address": "050/7731397",
+        "details": "الجمالية-طريق صان الحجر(حى الزمالك)"
+    },
+    {
+        "governorate": "182",
+        "hospital_name": "الدقهلية",
+        "phone": "ميت سلسيل",
+        "address": "050/2714410",
+        "details": "ميت سلسيل-الطريق السريع-بجوار الاسعاف"
+    },
+    {
+        "governorate": "183",
+        "hospital_name": "الدقهلية",
+        "phone": "دماص",
+        "address": "050/6880146",
+        "details": "دماص-بجوار بنك التضامن الاجتماعى"
+    },
+    {
+        "governorate": "184",
+        "hospital_name": "الدقهلية",
+        "phone": "المنصورة العام الجديد",
+        "address": "050/2249222",
+        "details": "المنصورة-خلف الاستاد الرياضى"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "185",
+        "hospital_name": "المنيا",
+        "phone": "المنيا العام",
+        "address": "086/2324434",
+        "details": "ش ابن الخطيب بجوار جمعية الشبان المسلمين"
+    },
+    {
+        "governorate": "186",
+        "hospital_name": "المنيا",
+        "phone": "مغاغة المركزي",
+        "address": "086/7550045",
+        "details": "ش المدارس بجوار المسجد"
+    },
+    {
+        "governorate": "187",
+        "hospital_name": "المنيا",
+        "phone": "بني مزار المركزي",
+        "address": "086/7821935",
+        "details": "ش الابراهيمية بجوار مجلس المدينة"
+    },
+    {
+        "governorate": "188",
+        "hospital_name": "المنيا",
+        "phone": "سمالوط المركزي",
+        "address": "086/7713931",
+        "details": "ش بورسعيد اول مدخل سمالوط"
+    },
+    {
+        "governorate": "189",
+        "hospital_name": "المنيا",
+        "phone": "أبو قرقاص",
+        "address": "086/2632233",
+        "details": "ش بورسعيد مدخل ابو قرقاص"
+    },
+    {
+        "governorate": "190",
+        "hospital_name": "المنيا",
+        "phone": "ملوي المركزي",
+        "address": "086/2659043",
+        "details": "نهاية ش 26 يولية ملوى"
+    },
+    {
+        "governorate": "191",
+        "hospital_name": "المنيا",
+        "phone": "العدوة المركزي",
+        "address": "086/7460272",
+        "details": "ش بورسعيد العدوة"
+    },
+    {
+        "governorate": "192",
+        "hospital_name": "المنيا",
+        "phone": "مطاي المركزي",
+        "address": "086/3921120",
+        "details": "ش الابراهيمية بجوار مجلس المدينة"
+    },
+    {
+        "governorate": "193",
+        "hospital_name": "المنيا",
+        "phone": "دير مواس المركزي",
+        "address": "086/2010015",
+        "details": "ش 26 يولية بجوار الوحدة الصحية"
+    },
+    {
+        "governorate": "",
+        "hospital_name": "",
+        "phone": "",
+        "address": "",
+        "details": ""
+    },
+    {
+        "governorate": "194",
+        "hospital_name": "المنوفية",
+        "phone": "منوف العام",
+        "address": "048/3660323",
+        "details": "م نوف العام م منوف"
+    },
+    {
+        "governorate": "195",
+        "hospital_name": "المنوفية",
+        "phone": "بركة السبع",
+        "address": "048/2991475",
+        "details": "بركة السبع اول طريق زفتى بجوار الكوبرى العلوى"
+    },
+    {
+        "governorate": "196",
+        "hospital_name": "المنوفية",
+        "phone": "الباجور المركزي",
+        "address": "048/3888163",
+        "details": "الباجور – ش بورسعيد بجوار الموقف"
+    },
+    {
+        "governorate": "197",
+        "hospital_name": "المنوفية",
+        "phone": "السادات المركزي",
+        "address": "048/2600047",
+        "details": "المنطقة السكنية بجوار المول التجارى"
+    },
+    {
+        "governorate": "198",
+        "hospital_name": "المنوفية",
+        "phone": "أشمون العام",
+        "address": "048/3445693",
+        "details": "بجوار مدرسة الصنايع"
+    },
+    {
+        "governorate": "199",
+        "hospital_name": "المنوفية",
+        "phone": "الشهداء المركزي",
+        "address": "048/2754344",
+        "details": "بجوار الموقف"
+    },
+    {
+        "governorate": "200",
+        "hospital_name": "المنوفية",
+        "phone": "قويسنا المركزي",
+        "address": "048/2579460",
+        "details": "الطريق السريع"
+    },
+    {
+        "governorate": "201",
+        "hospital_name": "المنوفية",
+        "phone": "سرس الليان المركزي",
+        "address": "048/3351431",
+        "details": "بجوار هيئة اليونسكو"
+    },
+    {
+        "governorate": "202",
+        "hospital_name": "المنوفية",
+        "phone": "تلا",
+        "address": "048/3790281",
+        "details": "تلا – بجوار مجلس المدينة"
+    }
+]
