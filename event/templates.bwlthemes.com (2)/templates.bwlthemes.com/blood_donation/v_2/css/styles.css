@@ -1,5 +1,31 @@
 
+
+.hospital-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.hospital-table th, .hospital-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: right;
+}
+.hospital-table th {
+    background-color: #333;
+    color: white;
+}
+.hospital-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.hospital-table tr:hover {
+    background-color: #ddd;
+}
+
 body {
+   
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
    
     color: #1c1c1c !important; /* اللون الافتراضي للنصوص */
 }
