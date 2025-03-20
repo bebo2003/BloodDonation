@@ -59,36 +59,35 @@
 
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-
                             <li>
-                                <a href="../../../../../index.html">صفحة رئيسية</a>
-
+                                <a href="../../../../../index.html">
+                                    <i class="fa fa-home"></i>
+                                    <span>الرئيسية</span>
+                                </a>
                             </li>
-
-
-                            <li><a href="../../../../../about/templates.bwlthemes.com (1)/templates.bwlthemes.com/blood_donation/v_2/about-us.html"
-                                    title="About Us">من نحن</a></li>
-
                             <li>
                                 <a
-                                    href="../../../../../event/templates.bwlthemes.com (2)/templates.bwlthemes.com/blood_donation/v_2/events.html">اماكنا</a>
-
+                                    href="../../../../../about/templates.bwlthemes.com (1)/templates.bwlthemes.com/blood_donation/v_2/about-us.html">
+                                    <i class='fa fa-book'></i>
+                                    <span>من نحن</span>
+                                </a>
                             </li>
-
-
-
-
-                            </li>
-
-
-
-                            <li><a
-                                    href="../../../../../contact/templates.bwlthemes.com (4)/templates.bwlthemes.com/blood_donation/v_2/contact.html">تواصل معنا</a>
-                            </li>
-
                             <li>
-                                <div id="google_translate_element" class="translate-button"></div>
+                                <a href="#">
+                                    <i class='fa fa-stethoscope'></i>
+                                    <span>اماكنا</span>
+                                </a>
                             </li>
+                            <li>
+                                <a
+                                    href="../../../../../contact/templates.bwlthemes.com (4)/templates.bwlthemes.com/blood_donation/v_2/contact.html">
+                                    <i class='fa fa-user'></i>
+                                    <span>تواصل معنا</span>
+                                </a>
+                            </li>
+
+                            <div id="google_translate_element" class="translate-button "></div>
+
                         </ul>
                     </div>
                 </div>
@@ -103,11 +102,44 @@
                     }, 'google_translate_element');
                 }
             </script>
-            
-            <script type="text/javascript" 
+
+            <script type="text/javascript"
                 src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-            </script>
+                </script>
             <style>
+                .navbar-nav li {
+                    text-align: start;
+                }
+
+                .navbar-nav li a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 5px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #333;
+                }
+
+                .navbar-nav li a i {
+                    display: inline-block;
+                    width: 50px;
+                    height: 50px;
+                    margin: 0px;
+                    border-radius: 50%;
+                    border: 3px #ccc solid !important;
+                    text-align: center;
+                    line-height: 50px;
+                    color: #fcf9ea !important;
+                    font-size: 32px !important;
+                    padding: 0;
+                    background: #0070c4 !important;
+                }
+
+                .navbar-nav li a:hover {
+                    color: #0056b3;
+                }
+
                 /* تنسيق زر الترجمة */
                 .translate-button {
                     display: flex;
@@ -173,7 +205,7 @@
                 <div class="col-md-12 col-sm-12 text-left no-img-separator">
                     <h2 style="color: #cc0000;">جميع اماكن التبرع بالدم</h2>
                     <span class="heading-separator heading-separator-horizontal"></span>
-                    <h4>شجع المتبرعين الجدد على الانضمام والاستمرار في التبرع 
+                    <h4>شجع المتبرعين الجدد على الانضمام والاستمرار في التبرع
                         بالدم ونزور آلاف المواقع الأخرى في مناسبات مختلفة</h4>
                 </div>
                 <!-- end .col-sm-12  -->
@@ -202,21 +234,30 @@
 
 
                     <!-- ✅ جدول المستشفيات -->
-                    <table class="hospital-table">
+                    <table class="hospital-table ">
                         <thead>
                             <tr>
-
                                 <th>متاح للتبرع</th>
                                 <th>العنوان</th>
                                 <th>الهاتف</th>
+
+                                <th>فصيلة الدم</th>
+                                <th> مجاني \ غير
+                                </th>
+
+
+
                                 <th>بنك الدم</th>
                                 <th>المحافظة</th>
                             </tr>
                         </thead>
+                        <div>
                         <tbody id="hospital-list">
                             <!-- سيتم ملء البيانات هنا بواسطة JavaScript -->
                         </tbody>
+                        
                     </table>
+
 
 
 
@@ -227,6 +268,8 @@
                                 id: "1",
                                 name: "القاهرة",
                                 blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "شبرا العام",
                                 phone: "22352325",
                                 details: "76 ش المستشفى - شبرا ( داخل مستشفى شبرا العام - كتشنر )"
@@ -235,6 +278,8 @@
                                 id: "2",
                                 name: "القاهرة",
                                 blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "المنيرة",
                                 phone: "23910230",
                                 details: "2 ش نوبار السيدة ( داخل مستشفى المنيرة العام )"
@@ -243,6 +288,8 @@
                                 id: "3",
                                 name: "القاهرة",
                                 blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "منشية البكري",
                                 phone: "22580946",
                                 details: "ش جسر السويس ( داخل مستشفى منشية البكرى العام )"
@@ -251,6 +298,8 @@
                                 id: "4",
                                 name: "القاهرة",
                                 blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "دار السلام المركزي",
                                 phone: "22367769",
                                 details: "987 ش كورنيش النيل - الملك الصالح ( داخل مستشفى دار السلام العام - هرمل )"
@@ -259,6 +308,8 @@
                                 id: "5",
                                 name: "القاهرة",
                                 blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الخازندارة",
                                 phone: "22057593",
                                 details: "3 ش شيبان - شبرا ( داخل مستشفى الخازندارة العام )"
@@ -267,6 +318,8 @@
                                 id: "6",
                                 name: "القاهرة",
                                 blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "بولاق العام",
                                 phone: "25755211",
                                 details: "ش المطبعة الاهلية - السبتة ( داخل مستشفى بولاق العلا العام )"
@@ -274,6 +327,9 @@
                             {
                                 id: "7",
                                 name: "القاهرة",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "صدر العباسية",
                                 phone: "23425248",
                                 details: "ش السكة البيضاء - العباسية ( داخل مستشفى صدر العباسية )"
@@ -281,6 +337,8 @@
                             {
                                 id: "8",
                                 name: "القاهرة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الزاوية الحمراء",
                                 phone: "24248004",
                                 details: "ش المستشفى بجوار مركز شباب الزاوية ( داخل مستشفى الزاوية العام )"
@@ -288,6 +346,8 @@
                             {
                                 id: "9",
                                 name: "القاهرة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "حلوان العام",
                                 phone: "25564492",
                                 details: "ش فيض خلف الحديقة اليابانية ( داخل مستشفى حلوان العام )"
@@ -295,6 +355,8 @@
                             {
                                 id: "10",
                                 name: "القاهرة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "حميات العباسية",
                                 phone: "23425126",
                                 details: "ش امتداد رمسيس - العباسية ( اخل مستشفى حميات العباسية )"
@@ -302,6 +364,8 @@
                             {
                                 id: "11",
                                 name: "القاهرة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الشيخ زايد منشية ناصر",
                                 phone: "38502523",
                                 details: "منشاة ناصر - طريق الاورستراد ( داخل مستشفى الشيخ زايد ال نهيان العام )"
@@ -309,6 +373,8 @@
                             {
                                 id: "12",
                                 name: "القاهرة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "القاهرة الجديدة",
                                 phone: "27594306",
                                 details: "القاهرة الجديدة"
@@ -316,7 +382,12 @@
 
                             {
                                 id: "13",
-                                name: "الجيزة", blood_bank: 'متوفر', blood_bank: 'متوفر',
+                                name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "ام المصريين",
                                 phone: "35733898",
                                 details: "ش ربيع الجيزي ميدان أم المصريين"
@@ -324,6 +395,8 @@
                             {
                                 id: "14",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "امبابة العام",
                                 phone: "33040116",
                                 details: "ش محمود رحمي (الثابت سابقا) بجوار معهد القلب"
@@ -331,6 +404,8 @@
                             {
                                 id: "15",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "بولاق الدكرور العام",
                                 phone: "37345455",
                                 details: "ش ترعة الزمر بجوار قسم شرطة بولاق الدكرور"
@@ -338,6 +413,8 @@
                             {
                                 id: "16",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الحوامدية العام",
                                 phone: "38114164",
                                 details: "طريق مصر اسيوط مدينة الحوامدية - الجيزة"
@@ -345,6 +422,8 @@
                             {
                                 id: "17",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "صــدر الجيزة",
                                 phone: "35610380",
                                 details: "ش ترعة الزمر العمرانية الغربية"
@@ -352,6 +431,8 @@
                             {
                                 id: "18",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "التحرير العام بامبابة",
                                 phone: "37110046",
                                 details: "ش نصوح باشا بجوار المطابع الاميرية إمبابة"
@@ -359,6 +440,8 @@
                             {
                                 id: "19",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "البدرشين المركزى",
                                 phone: "38020526",
                                 details: "البدرشين -ش مصر أسيوط السريع"
@@ -366,6 +449,8 @@
                             {
                                 id: "20",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "العيــــــــــاط المركزى",
                                 phone: "38606443",
                                 details: "العياط ش الجيش طريق مصر أسيوط الزراعي -الجيزة"
@@ -373,6 +458,8 @@
                             {
                                 id: "21",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "أوسيـــــــم المركزى",
                                 phone: "38709724",
                                 details: "ش الخليفة المأمون - اوسيم - جيزة"
@@ -380,6 +467,8 @@
                             {
                                 id: "22",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "أبو النمرس المركزى",
                                 phone: "38091789",
                                 details: "مدينة أبو النمرس محافظة الجيزة"
@@ -387,6 +476,8 @@
                             {
                                 id: "23",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الصف",
                                 phone: "38622086",
                                 details: "مدينة الصف الجيزة"
@@ -394,6 +485,8 @@
                             {
                                 id: "24",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "السادس من أكتوبر",
                                 phone: "38322180",
                                 details: "ميدان فودافون مدينة 6 أكتوبر"
@@ -401,6 +494,8 @@
                             {
                                 id: "25",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "أطفيح",
                                 phone: "38412301",
                                 details: "مركز أطفيح الجيزة"
@@ -408,6 +503,8 @@
                             {
                                 id: "26",
                                 name: "الجيزة", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الواحات البحرية",
                                 phone: "38470122",
                                 details: "الباويطي الوحات البحرية"
@@ -416,6 +513,8 @@
                             {
                                 id: "27",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "شبرا الخيمة العام( ناصر العام )",
                                 phone: "42201743",
                                 details: "ش مستشفى ناصر العام خلف كريستال عصفور شبرا الخيمة"
@@ -423,6 +522,8 @@
                             {
                                 id: "28",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "طـــــــــوخ المركزى",
                                 phone: "013/2460131",
                                 details: "بجوار طوخ طريق مصر اسكندرية الزراعى"
@@ -430,6 +531,8 @@
                             {
                                 id: "29",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "كفر شكر المركزى",
                                 phone: "013/2520057",
                                 details: "طريق القليوبية المنصورة الزراعى"
@@ -437,6 +540,8 @@
                             {
                                 id: "30",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "قليوب المركزى",
                                 phone: "013/2520057",
                                 details: "ش العاشر من رمضان بجوار قليوب المحطة"
@@ -444,6 +549,8 @@
                             {
                                 id: "31",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "القناطر الخيرية المركزى",
                                 phone: "42188750",
                                 details: "بالتقسيم السياحى بالقناطر بجوار مجلس المدينة"
@@ -451,6 +558,8 @@
                             {
                                 id: "32",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "شبين القناطر المركزى",
                                 phone: "013/2720011",
                                 details: "عزبة الوكلاء"
@@ -458,6 +567,8 @@
                             {
                                 id: "33",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الخانكة المركزى",
                                 phone: "44698987",
                                 details: "ش المحطة بالخانكة"
@@ -465,6 +576,8 @@
                             {
                                 id: "34",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "قها المركزي",
                                 phone: "013/2601049",
                                 details: "مدينةقها بجوار مجلس مدينة قها شارع مجلس المدينة"
@@ -472,6 +585,8 @@
                             {
                                 id: "35",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "بهتيم المركزي",
                                 phone: "48241726",
                                 details: "135 ش بهتين العمومى خلف محطة الكهرباء حى شرق شبرا الخيمة"
@@ -479,6 +594,8 @@
                             {
                                 id: "36",
                                 name: "القليوبية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "أبو المنجـا",
                                 phone: "44449335",
                                 details: "اول طريق القناطر بجوار مصنع ياسين"
@@ -487,6 +604,8 @@
                             {
                                 id: "37",
                                 name: "الاسكندرية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "ابو قير",
                                 phone: "03/5624444",
                                 details: "ابوقير البلد"
@@ -494,6 +613,8 @@
                             {
                                 id: "38",
                                 name: "الاسكندرية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "برج العرب",
                                 phone: "03/4595036",
                                 details: "برج العرب الجديدة امام قسم الشرطة"
@@ -501,6 +622,8 @@
                             {
                                 id: "39",
                                 name: "الاسكندرية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "العامرية المركزي",
                                 phone: "03/4480013",
                                 details: "اسكندرية العامرية شارع الحج شرقاوى"
@@ -508,6 +631,8 @@
                             {
                                 id: "40",
                                 name: "الاسكندرية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "دار اسماعيل",
                                 phone: "03/3612806",
                                 details: ""
@@ -515,6 +640,8 @@
                             {
                                 id: "41",
                                 name: "الاسكندرية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الحميات",
                                 phone: "03/4290970",
                                 details: "امبروزو - الحضره"
@@ -522,6 +649,8 @@
                             {
                                 id: "42",
                                 name: "الاسكندرية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "راس التين",
                                 phone: "03/4860574",
                                 details: "ش ثصر راس التين بجوار ثصر ثقافه الانفوشى"
@@ -529,14 +658,237 @@
                             {
                                 id: "43",
                                 name: "الاسكندرية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "الجمهورية",
                                 phone: "03/3624238",
                                 details: "ش قنال المحمودية امام كوبرى راغب"
                             },
 
+
                             {
+                                id: "203",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_type: "B-",
+                                blood_bank: "متوفر",
+                                address: "مستشفي أليكس نيو سدني",
+                                phone: "037243662",
+
+                                details: "ش قنال المحمودية امام كوبرى راغب"
+                            },
+                            {
+                                id: "204",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي لاقبال",
+                                phone: "0335724",
+                                blood_type: "O+",
+                                details: "شارع الجيش، بجوار مستشفى السلام"
+                            },
+                            {
+                                id: "205",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي ابراهيم ندي",
+                                phone: "035411152",
+                                blood_type: "AB",
+                                details: "شارع فؤاد، امام محطة الرمل"
+                            },
+                            {
+                                id: "206",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي سيتي",
+                                phone: "01020470490",
+                                blood_type: "O-",
+                                details: "ش جمال عبد الناصر، سيدي بشر"
+                            },
+                            {
+                                id: "207",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي ابراهيم عبيد",
+                                phone: "032852621",
+                                blood_type: "AB-",
+                                details: "ش ابوقير، بجوار سنترال سموحة"
+                            },
+                            {
+                                id: "208",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي ميديل ايسيت",
+                                phone: "032949505",
+                                blood_type: "B-",
+                                details: "ش بورسعيد، امام مستشفى الشرطة"
+                            },
+                            {
+                                id: "209",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي فيكتوريا",
+                                phone: "037750776",
+                                blood_type: "O-",
+                                details: "ش فيكتوريا، امام سنترال فيكتوريا"
+                            },
+                            {
+                                id: "210",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي لوران",
+                                phone: "010007568000",
+                                blood_type: "A-",
+                                details: "ش الكورنيش، لوران"
+                            },
+                            {
+                                id: "211",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي الشروق",
+                                phone: "035856549",
+                                blood_type: "O-",
+                                details: "ش الكورنيش، جليم"
+                            },
+                            {
+                                id: "212",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي زيزينيا",
+                                phone: "032856420",
+                                blood_type: "AB+",
+                                details: "ش زيزينيا، بجوار محطة ترام زيزينيا"
+                            },
+                            {
+                                id: "213",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي طيبة",
+                                phone: "035930444",
+                                blood_type: "B+",
+                                details: "ش سيدي جابر، بجوار محطة القطار"
+                            },
+                            {
+                                id: "214",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي مبرة العصافرة",
+                                phone: "035551612",
+                                blood_type: "O+",
+                                details: "ش العصافرة، امام مستشفى الشرطة"
+                            },
+                            {
+                                id: "215",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي رويال",
+                                phone: "035223066",
+                                blood_type: "AB-",
+                                details: "ش رشدي، بجوار مول سان ستيفانو"
+                            },
+                            {
+                                id: "216",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفى شرق المدينة",
+                                phone: "035499920",
+                                blood_type: "A-",
+                                details: "ش مصطفى كامل، سيدي جابر"
+                            },
+                            {
+                                id: "217",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي الاسكندرية الدولي",
+                                phone: "01281032458",
+                                blood_type: "A+",
+                                details: "ش فؤاد، بجوار القنصلية الإيطالية"
+                            },
+                            {
+                                id: "218",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي الأندلسية",
+                                phone: "01082838130",
+                                blood_type: "AB+",
+                                details: "ش الكورنيش، امام مكتبة الإسكندرية"
+                            },
+                            {
+                                id: "219",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفي مصطفى كامل العسكري",
+                                phone: "035632145",
+                                blood_type: "B+",
+                                details: "ش مصطفى كامل، سيدي جابر"
+                            },
+                            {
+                                id: "220",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفي الشرطة",
+                                phone: "035821147",
+                                blood_type: "A-",
+                                details: "ش النصر، بجوار أكاديمية الشرطة"
+                            },
+                            {
+                                id: "221",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_bank: "متوفر",
+                                address: "مستشفى العامرية العام",
+                                phone: "035562244",
+                                blood_type: "O-",
+                                details: "ش العامرية، أمام موقف العامرية"
+                            },
+                            {
+                                id: "222",
+                                name: "الاسكندرية",
+                                blood_status: "مجاني",
+
+                                blood_bank: "متوفر", address: "مستشفى كرموز",
+                                phone: "035215478",
+                                blood_type: "AB-",
+                                details: "ش كرموز، بجوار قسم كرموز"
+                            },
+                            {
+                                id: "223",
+                                name: "الاسكندرية",
+                                blood_status: "غير مجاني",
+                                blood_type: "B-",
+                                blood_bank: "متوفر",
+                                address: "مستشفى الحميات",
+                                phone: "035814478",
+
+                                details: "ش محرم بك، أمام محطة مصر"
+                            },
+
+
+                            {
+
                                 id: "44",
-                                name: "الغربية", blood_bank: 'متوفر', blood_bank: 'متوفر',
+                                name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "المنشاوي العام",
                                 phone: "040/3313280",
                                 details: "طنطا ش التكية"
@@ -544,6 +896,8 @@
                             {
                                 id: "45",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "المحلة الكبري العام",
                                 phone: "040/2223181",
                                 details: "المحلة الكبرى ش 6 اكتوبر"
@@ -551,6 +905,8 @@
                             {
                                 id: "46",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "زفتي العام",
                                 phone: "040/5703065",
                                 details: "زفتى ش الجيش بجوار مرور زفتى"
@@ -558,6 +914,8 @@
                             {
                                 id: "47",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "سمنود المركزي",
                                 phone: "040/2971989",
                                 details: "سمنود المستشفى"
@@ -565,6 +923,8 @@
                             {
                                 id: "48",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "كفر الزيات",
                                 phone: "040/2534025",
                                 details: ""
@@ -572,6 +932,8 @@
                             {
                                 id: "49",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "السنطة المركزي",
                                 phone: "040/5476645",
                                 details: ""
@@ -579,6 +941,8 @@
                             {
                                 id: "50",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "قطور المركزي",
                                 phone: "040/2766689",
                                 details: "قطور ش الجيش طريق طنطا كفر الشيخ سابقا"
@@ -586,6 +950,8 @@
                             {
                                 id: "51",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "بسيون المركزي",
                                 phone: "040/2732875",
                                 details: "بسيون ش 23 يوليو قريب من ادارة التأمين"
@@ -593,6 +959,8 @@
                             {
                                 id: "52",
                                 name: "الغربية", blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
                                 address: "صدر المحلة الكبري",
                                 phone: "040/2420068",
                                 details: "المحلة الكبرى ش 6 اكتوبر"
@@ -602,70 +970,100 @@
                                 id: "53",
                                 name: "الشرقية",
                                 address: "بلبيس المركزي",
-                                blood_bank: 'متوفر', phone: "055/2848304",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/2848304",
                                 details: ""
                             },
                             {
                                 id: "54",
                                 name: "الشرقية",
                                 address: "فاقوس المركزي",
-                                blood_bank: 'متوفر', phone: "055/3972760",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/3972760",
                                 details: ""
                             },
                             {
                                 id: "55",
                                 name: "الشرقية",
                                 address: "أبوحماد المركزي",
-                                blood_bank: 'متوفر', phone: "055/3417782",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/3417782",
                                 details: ""
                             },
                             {
                                 id: "56",
                                 name: "الشرقية",
                                 address: "منيا القمح",
-                                blood_bank: 'متوفر', phone: "055/3668400",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/3668400",
                                 details: "ش جمال عبد الناصر منيا القمح بجوار مدرسة جمال عبد الناصر الثانوية"
                             },
                             {
                                 id: "57",
                                 name: "الشرقية",
                                 address: "أبو كبير المركزي",
-                                blood_bank: 'متوفر', phone: "055/2303745",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/2303745",
                                 details: "م ابو كبير"
                             },
                             {
                                 id: "58",
                                 name: "الشرقية",
                                 address: "م. مشتول السوق",
-                                blood_bank: 'متوفر', phone: "055/2573323",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/2573323",
                                 details: "ش المدينة المنورة بجوار البنك الاهلى المصرى"
                             },
                             {
                                 id: "59",
                                 name: "الشرقية",
                                 address: "كفر صقر المركزى",
-                                blood_bank: 'متوفر', phone: "055/3186088",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/3186088",
                                 details: "م كفر صقر"
                             },
                             {
                                 id: "60",
                                 name: "الشرقية",
                                 address: "ديرب نجم المركزي",
-                                blood_bank: 'متوفر', phone: "055/3769623",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/3769623",
                                 details: "م ديرب نجم"
                             },
                             {
                                 id: "61",
                                 name: "الشرقية",
                                 address: "ههيا المركزي",
-                                blood_bank: 'متوفر', phone: "055/2564363",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/2564363",
                                 details: "م هيها"
                             },
                             {
                                 id: "62",
                                 name: "الشرقية",
                                 address: "الزوامل المركزي",
-                                blood_bank: 'متوفر', phone: "055/2820113",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "055/2820113",
                                 details: "م الزوامل"
                             },
 
@@ -673,98 +1071,140 @@
                                 id: "63",
                                 name: "البحيرة",
                                 address: "كفر الدوار المركزي",
-                                blood_bank: 'متوفر', phone: "045/2212186",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2212186",
                                 details: "قبل الكوبرى العلوى كفر الدوار"
                             },
                             {
                                 id: "64",
                                 name: "البحيرة",
                                 address: "أيتاي البارود المركزي",
-                                blood_bank: 'متوفر', phone: "045/3432386",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/3432386",
                                 details: "ش الجمهورية- ايتاي البارود"
                             },
                             {
                                 id: "65",
                                 name: "البحيرة",
                                 address: "المحمودية المركزي",
-                                blood_bank: 'متوفر', phone: "045/2505250",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2505250",
                                 details: "مدينة المحمودية"
                             },
                             {
                                 id: "66",
                                 name: "البحيرة",
                                 address: "كوم حماده المركزي",
-                                blood_bank: 'متوفر', phone: "045/3686673",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/3686673",
                                 details: "مركز كوم حمادة -شارع الثورة"
                             },
                             {
                                 id: "67",
                                 name: "البحيرة",
                                 address: "رشيد المركزي",
-                                blood_bank: 'متوفر', phone: "045/2920404",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2920404",
                                 details: "رشيد شارع البحر"
                             },
                             {
                                 id: "68",
                                 name: "البحيرة",
                                 address: "ابو حمص العام",
-                                blood_bank: 'متوفر', phone: "045/2560130",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2560130",
                                 details: "ابوحمص - شارع البحر"
                             },
                             {
                                 id: "69",
                                 name: "البحيرة",
                                 address: "وادي النطرون المركزي",
-                                blood_bank: 'متوفر', phone: "045/3551903",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/3551903",
                                 details: "وادى النطرون ــ طريق مصر اسكندرية الصحراوى ــ ك 108"
                             },
                             {
                                 id: "70",
                                 name: "البحيرة",
                                 address: "الدلنجات المركزي",
-                                blood_bank: 'متوفر', phone: "045/3606319",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/3606319",
                                 details: "الدلنجات - طريق الدلنجات دمهنور"
                             },
                             {
                                 id: "71",
                                 name: "البحيرة",
                                 address: "أبو المطامير المركزي",
-                                blood_bank: 'متوفر', phone: "045/2403335",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2403335",
                                 details: "أبو المطامير ش. المركز"
                             },
                             {
                                 id: "72",
                                 name: "البحيرة",
                                 address: "بدر التحرير المركزي",
-                                blood_bank: 'متوفر', phone: "045/3620335",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/3620335",
                                 details: "مركز بدر -التجرير الجنوبي -بحيرة"
                             },
                             {
                                 id: "73",
                                 name: "البحيرة",
                                 address: "الرحمانية",
-                                blood_bank: 'متوفر', phone: "045/2850814",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2850814",
                                 details: "الرحمانيه بحيره"
                             },
                             {
                                 id: "74",
                                 name: "البحيرة",
                                 address: "شبرا خيت",
-                                blood_bank: 'متوفر', phone: "045/3805363",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/3805363",
                                 details: "شبراخيت ش محمود ابو شلوع"
                             },
                             {
                                 id: "75",
                                 name: "البحيرة",
                                 address: "ادكو",
-                                blood_bank: 'متوفر', phone: "045/2916037",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2916037",
                                 details: "ادكوشارع السيد عبد الجليل"
                             },
                             {
                                 id: "76",
                                 name: "البحيرة",
                                 address: "حوش عيسى",
-                                blood_bank: 'متوفر', phone: "045/2703927",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "045/2703927",
                                 details: "ش الجمهورية - حوش عيسى - البحيرة"
                             },
 
@@ -772,49 +1212,70 @@
                                 id: "77",
                                 name: "مرسي مطروح",
                                 address: "مطروح العام",
-                                blood_bank: 'متوفر', phone: "046/4939494",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "046/4939494",
                                 details: "اول شارع اسكندرية بمدينة بمطروح"
                             },
                             {
                                 id: "78",
                                 name: "مرسي مطروح",
                                 address: "رأس الحكمة",
-                                blood_bank: 'متوفر', phone: "046/4500063",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "046/4500063",
                                 details: "طريق مطروح اسكندرية الكيلو 67"
                             },
                             {
                                 id: "79",
                                 name: "مرسي مطروح",
                                 address: "سيوة",
-                                blood_bank: 'متوفر', phone: "046/4600459",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "046/4600459",
                                 details: "بجوار القرية الالومبيه بمدينة سيوه"
                             },
                             {
                                 id: "80",
                                 name: "مرسي مطروح",
                                 address: "سيدي براني",
-                                blood_bank: 'متوفر', phone: "046/4400070",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "046/4400070",
                                 details: "مدينة برانى"
                             },
                             {
                                 id: "81",
                                 name: "مرسي مطروح",
                                 address: "العلمين",
-                                blood_bank: 'متوفر', phone: "046/4100212",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "046/4100212",
                                 details: "الكيلو 100 طريق اسكندريه مطروح"
                             },
                             {
                                 id: "82",
                                 name: "مرسي مطروح",
                                 address: "السلوم",
-                                blood_bank: 'متوفر', phone: "046/4800020",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "046/4800020",
                                 details: "بجوار بنك الاهلى المصرى بمدينة السلوم"
                             },
                             {
                                 id: "83",
                                 name: "مرسي مطروح",
                                 address: "م. الحمام المركزي",
-                                blood_bank: 'متوفر', phone: "046/4750844",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "046/4750844",
                                 details: "أول شارع اسكندريه بمدينة الحمام"
                             },
 
@@ -822,63 +1283,90 @@
                                 id: "84",
                                 name: "كفر الشيخ",
                                 address: "بيلا المركزي",
-                                blood_bank: 'متوفر', phone: "047/3605661",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/3605661",
                                 details: "ش المستشفى بجوار الاصلاح الزراعى ملتقى ش الثورة"
                             },
                             {
                                 id: "85",
                                 name: "كفر الشيخ",
                                 address: "قلين المركزي",
-                                blood_bank: 'متوفر', phone: "047/3400482",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/3400482",
                                 details: "م قلين المركزى"
                             },
                             {
                                 id: "86",
                                 name: "كفر الشيخ",
                                 address: "بلطيم المركزي",
-                                blood_bank: 'متوفر', phone: "047/2510860",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/2510860",
                                 details: "م بلطيم المركزى"
                             },
                             {
                                 id: "87",
                                 name: "كفر الشيخ",
                                 address: "دسوق المركزي",
-                                blood_bank: 'متوفر', phone: "047/2563550",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/2563550",
                                 details: "م دسوق العام"
                             },
                             {
                                 id: "88",
                                 name: "كفر الشيخ",
                                 address: "مطوبس المركزي",
-                                blood_bank: 'متوفر', phone: "047/2710821",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/2710821",
                                 details: "م مطوبس المركزى"
                             },
                             {
                                 id: "89",
                                 name: "كفر الشيخ",
                                 address: "الرياض",
-                                blood_bank: 'متوفر', phone: "047/3810415",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/3810415",
                                 details: "م الرياض المركزى"
                             },
                             {
                                 id: "90",
                                 name: "كفر الشيخ",
                                 address: "سيدي سالم المركزي",
-                                blood_bank: 'متوفر', phone: "047/2706938",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/2706938",
                                 details: "م سيدى سالم المركزى"
                             },
                             {
                                 id: "91",
                                 name: "كفر الشيخ",
                                 address: "كفر الشيخ العام",
-                                blood_bank: 'متوفر', phone: "047/3232698",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/3232698",
                                 details: "مستشفى كفر الشيخ بجوار عمارات الاوقاف كفر الشيخ"
                             },
                             {
                                 id: "92",
                                 name: "كفر الشيخ",
                                 address: "فوه المركزي",
-                                blood_bank: 'متوفر', phone: "047/2976777",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "047/2976777",
                                 details: "م فوة المركزى"
                             },
 
@@ -886,35 +1374,50 @@
                                 id: "93",
                                 name: "دمياط",
                                 address: "دمياط الرئيسي",
-                                blood_bank: 'متوفر', phone: "057/2332096",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "057/2332096",
                                 details: "ش كورنيش النيل مستشفى دمياط التخصصى"
                             },
                             {
                                 id: "94",
                                 name: "دمياط",
                                 address: "كفر سعد",
-                                blood_bank: 'متوفر', phone: "057/3602633",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "057/3602633",
                                 details: "الطر يق الفسريع المنصورة دمياط بجوار مصنع الزيت والصابون"
                             },
                             {
                                 id: "95",
                                 name: "دمياط",
                                 address: "دمياط العام",
-                                blood_bank: 'متوفر', phone: "057/2224340",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "057/2224340",
                                 details: "ش كورنيش النيل امام مبنى المحافظة"
                             },
                             {
                                 id: "96",
                                 name: "دمياط",
                                 address: "فارسكور المركزي",
-                                blood_bank: 'متوفر', phone: "057/3442354",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "057/3442354",
                                 details: "ش مطحن الارز بجوار شرطة فارسكور"
                             },
                             {
                                 id: "97",
                                 name: "دمياط",
                                 address: "الزرقا",
-                                blood_bank: 'متوفر', phone: "057/3858567",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "057/3858567",
                                 details: "ش الثورة مستشفى الزرقا"
                             },
 
@@ -922,14 +1425,20 @@
                                 id: "98",
                                 name: "الوادي الجديد",
                                 address: "الداخله المركزي",
-                                blood_bank: 'متوفر', phone: "092/7821555",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "092/7821555",
                                 details: "ش جمال عبد الناصر مدينة موط"
                             },
                             {
                                 id: "99",
                                 name: "الوادي الجديد",
                                 address: "الفرافرة",
-                                blood_bank: 'متوفر', phone: "092/7510047",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "092/7510047",
                                 details: "مركز ومدينة الفرافرة بجوار الوحدة المحلية"
                             },
 
@@ -937,57 +1446,81 @@
                                 id: "100",
                                 name: "البحر الاحمر",
                                 address: "الغردقة",
-                                blood_bank: 'متوفر', phone: "065/3546841",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "065/3546841",
                                 details: "الغردقة ش المستشفى بجوار قرية شدوان"
                             },
                             {
                                 id: "101",
                                 name: "البحر الاحمر",
                                 address: "راس غارب",
-                                blood_bank: 'متوفر', phone: "065/3624650",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "065/3624650",
                                 details: "راس غارب بجوار السنترال"
                             },
                             {
                                 id: "102",
                                 name: "البحر الاحمر",
                                 address: "القصير المركزي",
-                                blood_bank: 'متوفر', phone: "065/3330070",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "065/3330070",
                                 details: "القصير ش المستشفى"
                             },
                             {
                                 id: "103",
                                 name: "البحر الاحمر",
                                 address: "سفاجــــــــــــا",
-                                blood_bank: 'متوفر', phone: "065/3251549",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "065/3251549",
                                 details: "سفاجا ش مجلس المدينة"
                             },
-                           
+
                             {
                                 id: "104",
                                 name: "شمال سيناء",
                                 address: "العريش العام",
-                                blood_bank: 'متوفر', phone: "068/3352938",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "068/3352938",
                                 details: "ش الجيش امام محطة الكهرباء القديمة"
                             },
                             {
                                 id: "105",
                                 name: "شمال سيناء",
                                 address: "رفح",
-                                blood_bank: 'متوفر', phone: "068/3500459",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "068/3500459",
                                 details: "حى الصفا امام قطاع الامن المركزى"
                             },
                             {
                                 id: "106",
                                 name: "شمال سيناء",
                                 address: "الشيخ زويد",
-                                blood_bank: 'متوفر', phone: "068/3500323",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "068/3500323",
                                 details: "حى الكوثر بالشيخ زويد"
                             },
                             {
                                 id: "107",
                                 name: "شمال سيناء",
                                 address: "بئر العبد",
-                                blood_bank: 'متوفر', phone: "068/3540005",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "068/3540005",
                                 details: "الشارع العام طريق رفح القنطرة"
                             },
 
@@ -995,28 +1528,40 @@
                                 id: "108",
                                 name: "جنوب سيناء",
                                 address: "طور سيناء",
-                                blood_bank: 'متوفر', phone: "069/3770320",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "069/3770320",
                                 details: "ش طابا طور سيناء امام موقف اتوبيس شرق الدلتا"
                             },
                             {
                                 id: "109",
                                 name: "جنوب سيناء",
                                 address: "نويبع",
-                                blood_bank: 'متوفر', phone: "069/3500302",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "069/3500302",
                                 details: "مدينة نويبع امام مركز شباب نوبيع"
                             },
                             {
                                 id: "110",
                                 name: "جنوب سيناء",
                                 address: "دهب",
-                                blood_bank: 'متوفر', phone: "069/3640208",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "069/3640208",
                                 details: "بجوار مجلس المدينة"
                             },
                             {
                                 id: "111",
                                 name: "جنوب سيناء",
                                 address: "رأس سدر",
-                                blood_bank: 'متوفر', phone: "069/3400214",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "069/3400214",
                                 details: "ش الشاليهات"
                             },
 
@@ -1024,28 +1569,40 @@
                                 id: "112",
                                 name: "بورسعيد",
                                 address: "بور فؤاد العام",
-                                blood_bank: 'متوفر', phone: "066/3400848",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "066/3400848",
                                 details: "منطقة العبور بورسعيد"
                             },
                             {
                                 id: "113",
                                 name: "بورسعيد",
                                 address: "بور سعيد العام",
-                                blood_bank: 'متوفر', phone: "066/3237231",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "066/3237231",
                                 details: "تقاطع صفية زغلول والشهيد محسن السيد"
                             },
                             {
                                 id: "114",
                                 name: "بورسعيد",
                                 address: "بورسعيد الرئيسي",
-                                blood_bank: 'متوفر', phone: "066/3221605",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "066/3221605",
                                 details: "ش صفية زغلول بجوار مجمع المعامل"
                             },
                             {
                                 id: "115",
                                 name: "بورسعيد",
                                 address: "النصر",
-                                blood_bank: 'متوفر', phone: "066/3230587",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "066/3230587",
                                 details: "تقاطع عبد الهادى الحريرى طريق النصر"
                             },
 
@@ -1053,35 +1610,50 @@
                                 id: "116",
                                 name: "الاسماعيلية",
                                 address: "التل الكبير المركزي",
-                                blood_bank: 'متوفر', phone: "064/3961636",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "064/3961636",
                                 details: "مدينة التل الكبير شارع احمد عرابى"
                             },
                             {
                                 id: "117",
                                 name: "الاسماعيلية",
                                 address: "القنطره غرب",
-                                blood_bank: 'متوفر', phone: "064/3561029",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "064/3561029",
                                 details: "مدينة القنطرة غرب بجوار محطة المياة"
                             },
                             {
                                 id: "118",
                                 name: "الاسماعيلية",
                                 address: "القصاصين المركزي",
-                                blood_bank: 'متوفر', phone: "064/3440021",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "064/3440021",
                                 details: "مدينة القصاصين بجوار الكهرباء"
                             },
                             {
                                 id: "119",
                                 name: "الاسماعيلية",
                                 address: "فايد المركزي",
-                                blood_bank: 'متوفر', phone: "064/3661038",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "064/3661038",
                                 details: "مدينة فايد بجوار مجلس المدينة"
                             },
                             {
                                 id: "120",
                                 name: "الاسماعيلية",
                                 address: "الاسماعلية العام",
-                                blood_bank: 'متوفر', phone: "064/3213914",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "064/3213914",
                                 details: "المرحلة السابعة الطريق الدائرى"
                             },
 
@@ -1089,7 +1661,10 @@
                                 id: "121",
                                 name: "السويس",
                                 address: "السويس العام",
-                                blood_bank: 'متوفر', phone: "062/3331190",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "062/3331190",
                                 details: "ش صلاح الدين مستشفى السويس العام"
                             },
 
@@ -1097,35 +1672,50 @@
                                 id: "122",
                                 name: "الفيوم",
                                 address: "الفيوم العام",
-                                blood_bank: 'متوفر', phone: "084/6333122",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "084/6333122",
                                 details: "مستشفى النبوى المهندس المسلة"
                             },
                             {
                                 id: "123",
                                 name: "الفيوم",
                                 address: "سنورس المركزي",
-                                blood_bank: 'متوفر', phone: "084/6900808",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "084/6900808",
                                 details: "مدينة سنورس"
                             },
                             {
                                 id: "124",
                                 name: "الفيوم",
                                 address: "أبشواي المركزي",
-                                blood_bank: 'متوفر', phone: "084/6719574",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "084/6719574",
                                 details: "مدينة ابشواى"
                             },
                             {
                                 id: "125",
                                 name: "الفيوم",
                                 address: "طامية المركزي",
-                                blood_bank: 'متوفر', phone: "084/6610715",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "084/6610715",
                                 details: "مدينة طامية"
                             },
                             {
                                 id: "126",
                                 name: "الفيوم",
                                 address: "أطسا المركزي",
-                                blood_bank: 'متوفر', phone: "084/6410612",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "084/6410612",
                                 details: "مدينة اطسا"
                             },
 
@@ -1133,49 +1723,70 @@
                                 id: "127",
                                 name: "بني سويف",
                                 address: "بني سويف العام",
-                                blood_bank: 'متوفر', phone: "082/2323243",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "082/2323243",
                                 details: "مدينة بنى سويف شارع كورنيش النيل"
                             },
                             {
                                 id: "128",
                                 name: "بني سويف",
                                 address: "الفشن المركزي",
-                                blood_bank: 'متوفر', phone: "082/7660548",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "082/7660548",
                                 details: "بنى سويف مدينة الفشن شارع المستشفى"
                             },
                             {
                                 id: "129",
                                 name: "بني سويف",
                                 address: "الواسطي المركزي",
-                                blood_bank: 'متوفر', phone: "082/2517789",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "082/2517789",
                                 details: "بنى سويف مدينة الواسطى شارع احمد عرابى"
                             },
                             {
                                 id: "130",
                                 name: "بني سويف",
                                 address: "ناصر المركزي",
-                                blood_bank: 'متوفر', phone: "082/5827950",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "082/5827950",
                                 details: "بنى سويف مدينة ناصر شارع جمال عبد الناصر امام البنك الاهلى المصرى"
                             },
                             {
                                 id: "131",
                                 name: "بني سويف",
                                 address: "أهناسيا المركزي",
-                                blood_bank: 'متوفر', phone: "082/5725888",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "082/5725888",
                                 details: "بنى سويف اهانسبا المدينة شارع المستشفى"
                             },
                             {
                                 id: "132",
                                 name: "بني سويف",
                                 address: "ببا المركزي",
-                                blood_bank: 'متوفر', phone: "082/4400929",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "082/4400929",
                                 details: "بنى سويف شارع المستشفى امام المعهد الدينى"
                             },
                             {
                                 id: "133",
                                 name: "بني سويف",
                                 address: "سمسطا المركزي",
-                                blood_bank: 'متوفر', phone: "082/7606284",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "082/7606284",
                                 details: "بنى سويف سمسطا شارع المستشفى بجوار صيدلية الاسعاف"
                             },
 
@@ -1183,84 +1794,120 @@
                                 id: "134",
                                 name: "اسيوط",
                                 address: "اسيوط العام",
-                                blood_bank: 'متوفر', phone: "088/2338210",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2338210",
                                 details: "ميدان المجذوب اسيوط"
                             },
                             {
                                 id: "135",
                                 name: "اسيوط",
                                 address: "الايمان العام",
-                                blood_bank: 'متوفر', phone: "088/2332671",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2332671",
                                 details: "الطريق الدائرى بالاربعين اسيوط"
                             },
                             {
                                 id: "136",
                                 name: "اسيوط",
                                 address: "ديروط المركزي",
-                                blood_bank: 'متوفر', phone: "088/4784800",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/4784800",
                                 details: "ش بورسعيد ديروط اسيوط"
                             },
                             {
                                 id: "137",
                                 name: "اسيوط",
                                 address: "القوصية المركزي",
-                                blood_bank: 'متوفر', phone: "088/4751722",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/4751722",
                                 details: "ش المستشفى - القوصية"
                             },
                             {
                                 id: "138",
                                 name: "اسيوط",
                                 address: "منفلوط المركزي",
-                                blood_bank: 'متوفر', phone: "088/4709805",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/4709805",
                                 details: "ش جمال عبد الناصر اسيوط"
                             },
                             {
                                 id: "139",
                                 name: "اسيوط",
                                 address: "أبو تيج المركزي",
-                                blood_bank: 'متوفر', phone: "088/2480777",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2480777",
                                 details: "ش الجلاء بجوار المحكمة"
                             },
                             {
                                 id: "140",
                                 name: "اسيوط",
                                 address: "صدفا المركزي",
-                                blood_bank: 'متوفر', phone: "088/2670777",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2670777",
                                 details: "ش الجيش بصدفة"
                             },
                             {
                                 id: "141",
                                 name: "اسيوط",
                                 address: "أبنوب المركزي",
-                                blood_bank: 'متوفر', phone: "088/2507116",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2507116",
                                 details: "ش بورسعيد - ابنوب"
                             },
                             {
                                 id: "142",
                                 name: "اسيوط",
                                 address: "الغنايم المركزي",
-                                blood_bank: 'متوفر', phone: "088/2650045",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2650045",
                                 details: "بحرى ش الجمهورية"
                             },
                             {
                                 id: "143",
                                 name: "اسيوط",
                                 address: "البداري المركزي",
-                                blood_bank: 'متوفر', phone: "088/2608111",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2608111",
                                 details: "ش الدواوين -- البدارى"
                             },
                             {
                                 id: "144",
                                 name: "اسيوط",
                                 address: "ساحل سليم المركزي",
-                                blood_bank: 'متوفر', phone: "088/2631888",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2631888",
                                 details: "شارع 23 يولية ساحل سليم"
                             },
                             {
                                 id: "145",
                                 name: "اسيوط",
                                 address: "النساء و الولادة",
-                                blood_bank: 'متوفر', phone: "088/2284549",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "088/2284549",
                                 details: "ش 26 يولية اسيوط"
                             },
 
@@ -1268,49 +1915,70 @@
                                 id: "146",
                                 name: "قنا",
                                 address: "قنا العام",
-                                blood_bank: 'متوفر', phone: "096/5332043",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "096/5332043",
                                 details: "قنا- ش كوبرى دندرة"
                             },
                             {
                                 id: "147",
                                 name: "قنا",
                                 address: "نجع حمادي المركزي",
-                                blood_bank: 'متوفر', phone: "096/6580622",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "096/6580622",
                                 details: "نجع حمادى - نهاية شارع التحرير"
                             },
                             {
                                 id: "148",
                                 name: "قنا",
                                 address: "أبو تشت المركزي",
-                                blood_bank: 'متوفر', phone: "096/6710605",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "096/6710605",
                                 details: "ابو تشت - ش بورسعيد"
                             },
                             {
                                 id: "149",
                                 name: "قنا",
                                 address: "فرشوط المركزي",
-                                blood_bank: 'متوفر', phone: "096/6751527",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "096/6751527",
                                 details: "فرشوط - ش بورسعيد"
                             },
                             {
                                 id: "150",
                                 name: "قنا",
                                 address: "دشنــا المركزى",
-                                blood_bank: 'متوفر', phone: "096/6749594",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "096/6749594",
                                 details: "دشنا - ش طراد النيل بالصعايدة"
                             },
                             {
                                 id: "151",
                                 name: "قنا",
                                 address: "قوص المركزي",
-                                blood_bank: 'متوفر', phone: "096/6847568",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "096/6847568",
                                 details: "قوص -ش البحر"
                             },
                             {
                                 id: "152",
                                 name: "قنا",
                                 address: "نقاده",
-                                blood_bank: 'متوفر', phone: "096/6600066",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "096/6600066",
                                 details: "نقادة - ش طراد النيل - امام شبكة الكهرباء"
                             },
 
@@ -1318,21 +1986,30 @@
                                 id: "153",
                                 name: "الاقصر",
                                 address: "الاقصر العام",
-                                blood_bank: 'متوفر', phone: "095/2272809",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "095/2272809",
                                 details: "شارع معبد الكرنك بجوار ميدان التجارة"
                             },
                             {
                                 id: "154",
                                 name: "الاقصر",
                                 address: "اسنا المركزي",
-                                blood_bank: 'متوفر', phone: "095/2517339",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "095/2517339",
                                 details: "شارع احمد عرابي بجوار محطة توزيع الكهرباء"
                             },
                             {
                                 id: "155",
                                 name: "الاقصر",
                                 address: "أرمنت المركزي",
-                                blood_bank: 'متوفر', phone: "095/2625648",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "095/2625648",
                                 details: "شارع مصنع السكر بجوار نقطة اسعاف ارمنت الوبورات"
                             },
 
@@ -1340,92 +2017,131 @@
                                 id: "156",
                                 name: "سوهاج",
                                 address: "سوهاج العام",
-                                blood_bank: 'متوفر', phone: "093/2339797",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/2339797",
                                 details: "سوهاج ش النقراشى"
                             },
                             {
                                 id: "157",
                                 name: "سوهاج",
                                 address: "جرجا المركزي",
-                                blood_bank: 'متوفر', phone: "093/4676034",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/4676034",
                                 details: "ش المستشفى"
                             },
                             {
                                 id: "158",
                                 name: "سوهاج",
                                 address: "طما المركزي",
-                                blood_bank: 'متوفر', phone: "093/2790713",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/2790713",
                                 details: "ش احمد عرابى"
                             },
                             {
                                 id: "159",
                                 name: "سوهاج",
                                 address: "المراغه المركزي",
-                                blood_bank: 'متوفر', phone: "093/2530763",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/2530763",
                                 details: "ش المستشفى"
                             },
                             {
                                 id: "160",
                                 name: "سوهاج",
                                 address: "المنشاه المركزي",
-                                blood_bank: 'متوفر', phone: "093/2403597",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/2403597",
                                 details: "ش عبد المنعم رياض"
                             },
                             {
                                 id: "161",
                                 name: "سوهاج",
                                 address: "البلينا المركزي",
-                                blood_bank: 'متوفر', phone: "093/4800301",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/4800301",
                                 details: "ش الجمهورية"
                             },
                             {
                                 id: "162",
                                 name: "سوهاج",
                                 address: "ساقلته المركزي",
-                                blood_bank: 'متوفر', phone: "093/2511950",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/2511950",
                                 details: "ش المدارس"
                             },
                             {
                                 id: "163",
                                 name: "سوهاج",
                                 address: "أخميم المركزي",
-                                blood_bank: 'متوفر', phone: "093/2589263",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/2589263",
                                 details: "طريق سوهاج اخميم"
                             },
                             {
                                 id: "164",
                                 name: "سوهاج",
                                 address: "جهينه المركزي",
-                                blood_bank: 'متوفر', phone: "093/4707793",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/4707793",
                                 details: "ش الشهداء"
                             },
                             {
                                 id: "165",
                                 name: "سوهاج",
                                 address: "دار السلام المركزي",
-                                blood_bank: 'متوفر', phone: "093/4850333",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/4850333",
                                 details: "بندر دار السلام"
                             },
                             {
                                 id: "166",
                                 name: "سوهاج",
                                 address: "طهطا المركزي",
-                                blood_bank: 'متوفر', phone: "093/4772994",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "093/4772994",
                                 details: "ش صلاح سالم"
                             },
-                          
+
                             {
                                 id: "167",
                                 name: "أسوان",
                                 address: "كوم أمبو المركزي",
-                                blood_bank: 'متوفر', phone: "097/3510611",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "097/3510611",
                                 details: "منطقة السبعين"
                             },
                             {
                                 id: "168",
                                 name: "أسوان",
                                 address: "أدفو المركزي",
-                                blood_bank: 'متوفر', phone: "097/4712121",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "097/4712121",
                                 details: "ش كورنيش النيل"
                             },
 
@@ -1433,112 +2149,160 @@
                                 id: "169",
                                 name: "الدقهلية",
                                 address: "المنصورة العام",
-                                blood_bank: 'متوفر', phone: "050/2249222",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/2249222",
                                 details: "المنصورة -ش الجمهورية بجوار المعهد الصحى"
                             },
                             {
                                 id: "170",
                                 name: "الدقهلية",
                                 address: "بلقاس المركزي",
-                                blood_bank: 'متوفر', phone: "050/2784321",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/2784321",
                                 details: "بلقـاس- بجوار مركز الشرطة"
                             },
                             {
                                 id: "171",
                                 name: "الدقهلية",
                                 address: "المطرية المركزي",
-                                blood_bank: 'متوفر', phone: "050/7750343",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/7750343",
                                 details: "المطرية-مجلس المدينة"
                             },
                             {
                                 id: "172",
                                 name: "الدقهلية",
                                 address: "نبروه المركزي",
-                                blood_bank: 'متوفر', phone: "050/2400301",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/2400301",
                                 details: "نبروه-ش البحر"
                             },
                             {
                                 id: "173",
                                 name: "الدقهلية",
                                 address: "منية النصر المركزي",
-                                blood_bank: 'متوفر', phone: "050/7495555",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/7495555",
                                 details: "منية النصر-ش كلية التربية النوعية"
                             },
                             {
                                 id: "174",
                                 name: "الدقهلية",
                                 address: "أجا المركزي",
-                                blood_bank: 'متوفر', phone: "050/6455311",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/6455311",
                                 details: "أجــا-ش بورسعيد"
                             },
                             {
                                 id: "175",
                                 name: "الدقهلية",
                                 address: "ميت غمر المركزي",
-                                blood_bank: 'متوفر', phone: "050/6903719",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/6903719",
                                 details: "ميت غمر-ش سكة دقادوس"
                             },
                             {
                                 id: "176",
                                 name: "الدقهلية",
                                 address: "السنبلاوين",
-                                blood_bank: 'متوفر', phone: "050/6690010",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/6690010",
                                 details: "السنبلاوين-ارض الجمال"
                             },
                             {
                                 id: "177",
                                 name: "الدقهلية",
                                 address: "دكرنس المركزي",
-                                blood_bank: 'متوفر', phone: "050/7481140",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/7481140",
                                 details: "مدينة دكرنس-ش مجلس المدينة"
                             },
                             {
                                 id: "178",
                                 name: "الدقهلية",
                                 address: "المنزلة المركزي",
-                                blood_bank: 'متوفر', phone: "050/7702903",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/7702903",
                                 details: "المنزلة-ش الطريق الزراعى كوبرى المنزلة الجديدة"
                             },
                             {
                                 id: "179",
                                 name: "الدقهلية",
                                 address: "شربين المركزي",
-                                blood_bank: 'متوفر', phone: "050/7925934",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/7925934",
                                 details: "شربين- ش البحر"
                             },
                             {
                                 id: "180",
                                 name: "الدقهلية",
                                 address: "طلخا المركزي",
-                                blood_bank: 'متوفر', phone: "050/2523131",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/2523131",
                                 details: "طلخا- ش البحر"
                             },
                             {
                                 id: "181",
                                 name: "الدقهلية",
                                 address: "الجمالية المركزي",
-                                blood_bank: 'متوفر', phone: "050/7731397",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/7731397",
                                 details: "الجمالية-طريق صان الحجر(حى الزمالك)"
                             },
                             {
                                 id: "182",
                                 name: "الدقهلية",
                                 address: "ميت سلسيل",
-                                blood_bank: 'متوفر', phone: "050/2714410",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/2714410",
                                 details: "ميت سلسيل-الطريق السريع-بجوار الاسعاف"
                             },
                             {
                                 id: "183",
                                 name: "الدقهلية",
                                 address: "دماص",
-                                blood_bank: 'متوفر', phone: "050/6880146",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/6880146",
                                 details: "دماص-بجوار بنك التضامن الاجتماعى"
                             },
                             {
                                 id: "184",
                                 name: "الدقهلية",
                                 address: "المنصورة العام الجديد",
-                                blood_bank: 'متوفر', phone: "050/2249222",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "050/2249222",
                                 details: "المنصورة-خلف الاستاد الرياضى"
                             },
 
@@ -1546,63 +2310,90 @@
                                 id: "185",
                                 name: "المنيا",
                                 address: "المنيا العام",
-                                blood_bank: 'متوفر', phone: "086/2324434",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/2324434",
                                 details: "ش ابن الخطيب بجوار جمعية الشبان المسلمين"
                             },
                             {
                                 id: "186",
                                 name: "المنيا",
                                 address: "مغاغة المركزي",
-                                blood_bank: 'متوفر', phone: "086/7550045",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/7550045",
                                 details: "ش المدارس بجوار المسجد"
                             },
                             {
                                 id: "187",
                                 name: "المنيا",
                                 address: "بني مزار المركزي",
-                                blood_bank: 'متوفر', phone: "086/7821935",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/7821935",
                                 details: "ش الابراهيمية بجوار مجلس المدينة"
                             },
                             {
                                 id: "188",
                                 name: "المنيا",
                                 address: "سمالوط المركزي",
-                                blood_bank: 'متوفر', phone: "086/7713931",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/7713931",
                                 details: "ش بورسعيد اول مدخل سمالوط"
                             },
                             {
                                 id: "189",
                                 name: "المنيا",
                                 address: "أبو قرقاص",
-                                blood_bank: 'متوفر', phone: "086/2632233",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/2632233",
                                 details: "ش بورسعيد مدخل ابو قرقاص"
                             },
                             {
                                 id: "190",
                                 name: "المنيا",
                                 address: "ملوي المركزي",
-                                blood_bank: 'متوفر', phone: "086/2659043",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/2659043",
                                 details: "نهاية ش 26 يولية ملوى"
                             },
                             {
                                 id: "191",
                                 name: "المنيا",
                                 address: "العدوة المركزي",
-                                blood_bank: 'متوفر', phone: "086/7460272",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/7460272",
                                 details: "ش بورسعيد العدوة"
                             },
                             {
                                 id: "192",
                                 name: "المنيا",
                                 address: "مطاي المركزي",
-                                blood_bank: 'متوفر', phone: "086/3921120",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/3921120",
                                 details: "ش الابراهيمية بجوار مجلس المدينة"
                             },
                             {
                                 id: "193",
                                 name: "المنيا",
                                 address: "دير مواس المركزي",
-                                blood_bank: 'متوفر', phone: "086/2010015",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "086/2010015",
                                 details: "ش 26 يولية بجوار الوحدة الصحية"
                             },
 
@@ -1610,63 +2401,90 @@
                                 id: "194",
                                 name: "المنوفية",
                                 address: "منوف العام",
-                                blood_bank: 'متوفر', phone: "048/3660323",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/3660323",
                                 details: "م نوف العام م منوف"
                             },
                             {
                                 id: "195",
                                 name: "المنوفية",
                                 address: "بركة السبع",
-                                blood_bank: 'متوفر', phone: "048/2991475",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/2991475",
                                 details: "بركة السبع اول طريق زفتى بجوار الكوبرى العلوى"
                             },
                             {
                                 id: "196",
                                 name: "المنوفية",
                                 address: "الباجور المركزي",
-                                blood_bank: 'متوفر', phone: "048/3888163",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/3888163",
                                 details: "الباجور – ش بورسعيد بجوار الموقف"
                             },
                             {
                                 id: "197",
                                 name: "المنوفية",
                                 address: "السادات المركزي",
-                                blood_bank: 'متوفر', phone: "048/2600047",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/2600047",
                                 details: "المنطقة السكنية بجوار المول التجارى"
                             },
                             {
                                 id: "198",
                                 name: "المنوفية",
                                 address: "أشمون العام",
-                                blood_bank: 'متوفر', phone: "048/3445693",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/3445693",
                                 details: "بجوار مدرسة الصنايع"
                             },
                             {
                                 id: "199",
                                 name: "المنوفية",
                                 address: "الشهداء المركزي",
-                                blood_bank: 'متوفر', phone: "048/2754344",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/2754344",
                                 details: "بجوار الموقف"
                             },
                             {
                                 id: "200",
                                 name: "المنوفية",
                                 address: "قويسنا المركزي",
-                                blood_bank: 'متوفر', phone: "048/2579460",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/2579460",
                                 details: "الطريق السريع"
                             },
                             {
                                 id: "201",
                                 name: "المنوفية",
                                 address: "سرس الليان المركزي",
-                                blood_bank: 'متوفر', phone: "048/3351431",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/3351431",
                                 details: "بجوار هيئة اليونسكو"
                             },
                             {
                                 id: "202",
                                 name: "المنوفية",
                                 address: "تلا",
-                                blood_bank: 'متوفر', phone: "048/3790281",
+                                blood_bank: 'متوفر',
+                                blood_status: "...",
+                                blood_type: "...",
+                                phone: "048/3790281",
                                 details: "تلا – بجوار مجلس المدينة"
                             }
                         ]
@@ -1675,22 +2493,18 @@
                         const hospitalList = document.getElementById("hospital-list");
                         const governorateSearch = document.getElementById("governorateSearch");
 
-                        // ✅ بيانات المستشفيات (تأكد من أن هذه البيانات موجودة)
-
-
-
                         // ✅ دالة لعرض المستشفيات
                         function displayHospitals(filter = "") {
                             hospitalList.innerHTML = ""; // مسح الجدول السابق
 
                             // 🔍 تصفية المستشفيات بناءً على البحث
                             const filteredHospitals = hospitals.filter(hospital =>
-                                filter === "" || hospital.name.toLowerCase().includes(filter.toLowerCase().trim())
+                                filter === "" || hospital.name.toLowerCase().includes(filter.toLowerCase().trim()) || hospital.blood_status.toLowerCase().includes(filter.toLowerCase().trim()) || hospital.blood_type.toLowerCase().includes(filter.toLowerCase().trim())
                             );
 
                             // ✅ إذا لم يتم العثور على مستشفيات، عرض رسالة
                             if (filteredHospitals.length === 0) {
-                                hospitalList.innerHTML = `<tr><td colspan="5" style="color: red; text-align: center;">❌ لا توجد مستشفيات بهذه المحافظة.</td></tr>`;
+                                hospitalList.innerHTML = `<tr><td colspan="7" style="color: red; text-align: center;">❌ لا توجد مستشفيات بهذه المحافظة.</td></tr>`;
                                 return;
                             }
 
@@ -1698,14 +2512,14 @@
                             filteredHospitals.forEach(hospital => {
                                 const row = document.createElement("tr");
                                 row.innerHTML = `
-             
-                <td style="text-align: center;">✅</td>
-              
-                <td>${hospital.details}</td>
-                 <td>${hospital.phone}</td>
-                  <td>${hospital.address}</td>
-                   <td>${hospital.name}</td>
-            `;
+            <td style="text-align: center;">✅${hospital.blood_bank}</td>  
+            <td>${hospital.details}</td>
+            <td>${hospital.phone}</td>
+            <td style="text-align: center;">${hospital.blood_type}</td> <!-- ✅ فصيلة الدم -->
+            <td style="text-align: center;">${hospital.blood_status}</td> 
+            <td>${hospital.address}</td>
+            <td>${hospital.name}</td>
+        `;
                                 hospitalList.appendChild(row);
                             });
                         }
@@ -1717,6 +2531,7 @@
 
                         // ✅ عرض المستشفيات عند تحميل الصفحة
                         displayHospitals();
+
                     </script>
 
                 </div>
@@ -1743,107 +2558,190 @@
 
     <!-- قسم شعارات العملاء -->
 
-    <section class="section-content-block section-secondary-bg">
-        <div class="container wow fadeInUp">
-            <div class="row section-heading-wrapper">
-                <div class="col-md-12 col-sm-12 text-center no-img-separator">
-                    <h2 style="color: #cc0000;">رعاتنا</h2>
-                    <span class="heading-separator"></span>
-                    <h4 style="color: #990000;">الرعاة الذين يساهمون بمبالغهم القيمة لتحقيق مهمتنا.</h4>
-                </div>
-            </div>
 
-            <div class="row overflow-hidden">
-                <div class="logo-items owl-carousel logo-layout-1 text-center">
-                    <div class="client-logo "><img src="images/logo_1.jpg" alt="" /></div>
-                    <div class="client-logo"><img src="images/logo_2.jpg" alt="" /></div>
-                    <div class="client-logo over"><img src="images/logo_3.jpg" alt="" /></div>
-                    <div class="client-logo"><img src="images/logo_4.jpg" alt="" /></div>
-                    <div class="client-logo"><img src="images/logo_5.jpg" alt="" /></div>
-                    <div class="client-logo"><img src="images/logo_6.jpg" alt="" /></div>
-                    <div class="client-logo"><img src="images/logo_7.jpg" alt="" /></div>
-                    <div class="client-logo"><img src="images/logo_8.jpg" alt="" /></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- بداية الفوتر -->
-    <footer>
+    <footer class="">
+        
         <section class="footer-widget-area footer-widget-area-bg">
+    
             <div class="container">
+    
                 <div class="row">
+    
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    
                         <div class="about-footer">
+    
                             <div class="row">
+    
                                 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                                     <img src="images/logo-footer.png" alt="" />
                                 </div>
+                                <!-- نهاية .col-lg-3 -->
+    
                                 <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                                  <p>
+                                    <p>
                                         انطلقنا من إيماننا العميق بأهمية التبرع بالدم ودوره في إنقاذ الأرواح، فقررنا
                                         إنشاء هذا الموقع ليكون منصة تُسهّل عملية التبرع وتُشجّع عليها. هدفنا هو نشر
                                         الوعي وتعزيز ثقافة العطاء، مع توفير معلومات موثوقة وإرشادات مُبسّطة لجعل التبرع
                                         بالدم تجربة أسهل وأكثر أمانًا للجميع..
                                     </p>
                                 </div>
+                                <!-- نهاية .col-lg-9 -->
+    
                             </div>
+                            <!-- نهاية .row -->
+    
                         </div>
+                        <!-- نهاية .about-footer -->
+    
                     </div>
+                    <!-- نهاية .col-md-12 -->
+    
                 </div>
-
+                <!-- نهاية .row -->
+    
                 <div class="row">
+    
                     <div class="col-md-4 col-sm-6 col-xs-12">
+    
                         <div class="footer-widget">
+    
                             <div class="sidebar-widget-wrapper">
+    
                                 <div class="footer-widget-header clearfix">
                                     <h3 style="color: #cc0000;">اتصل بنا</h3>
                                 </div>
+                                <!-- نهاية .footer-widget-header -->
+    
                                 <div class="textwidget">
+    
                                     <i class="fa fa-envelope-o fa-contact"></i>
-                                    <p><a href="#">support@donation.com</a><br /><a href="#">helpme@donation.com</a></p>
+                                    <p><a href="#">....</a><br/><a href="#"></a></p>
+    
                                     <i class="fa fa-location-arrow fa-contact"></i>
-                                    <p style="color: #990000">الطريق-2، 3/A شرق شيبغونج<br />سيلهيت-3100، بنغلاديش</p>
+                                    <p style="color: #990000">.... </p>
+    
                                     <i class="fa fa-phone fa-contact"></i>
-                                    <p style="color: #990000">المكتب: (+880) 0823 560 433<br />الجوال: (+880) 0723 161
-                                        343</p>
+                                    <p style="color: #990000">....</p>
+    
                                 </div>
+    
                             </div>
+                            <!-- نهاية .footer-widget-wrapper -->
+    
                         </div>
+                        <!-- نهاية .footer-widget -->
+    
                     </div>
-
+                    <!-- نهاية .col-md-4 -->
+    
                     <div class="col-md-4 col-sm-12 col-xs-12">
+    
                         <div class="footer-widget clearfix">
+    
                             <div class="sidebar-widget-wrapper">
+    
                                 <div class="footer-widget-header clearfix">
                                     <h3 style="color: #cc0000">روابط الدعم</h3>
                                 </div>
+                                <!-- نهاية .footer-widget-header -->
+    
                                 <ul class="footer-useful-links">
-                                    <li><a href="#"><i class="fa fa-caret-right fa-footer"></i> الثلاسيميا</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right fa-footer"></i> فقر الدم المنجلي</a>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            الثلاسيميا
+                                        </a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-caret-right fa-footer"></i> خلل التنسج النخاعي</a>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            فقر الدم المنجلي
+                                        </a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-caret-right fa-footer"></i> تعداد الدم</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right fa-footer"></i> انحلال الدم</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right fa-footer"></i> فقر الدم اللاتنسجي</a>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            خلل التنسج النخاعي
+                                        </a>
                                     </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            تعداد الدم
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            فقر الدم الانحلالي
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            اضطرابات الكروموسوم Y
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            فرط التخثر
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            كثرة الصفائح الدموية
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            فقر الدم المنجلي الحاد
+                                        </a>
+                                    </li>
+    
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-caret-right fa-footer"></i>
+                                            فقر الدم اللاتنسجي
+                                        </a>
+                                    </li>
+    
                                 </ul>
+    
                             </div>
+                            <!-- نهاية .footer-widget -->
+    
                         </div>
+                        <!-- نهاية .footer-widget -->
+    
                     </div>
-
+                    <!-- نهاية .col-md-4 -->
+    
                     <div class="col-md-4 col-sm-6 col-xs-12">
+    
                         <div class="footer-widget">
                             <div class="sidebar-widget-wrapper">
                                 <div class="footer-widget-header clearfix">
                                     <h3 style="color: #cc0000">اشترك معنا</h3>
                                 </div>
-                                <p style="color: #990000">اشترك في نشرتنا الإخبارية للحصول على آخر التحديثات.</p>
+                                <p style="color: #990000">اشترك في نشرتنا الدورية للبقاء على اطلاع بأحدث الأخبار.</p>
                                 <div class="footer-subscription">
                                     <p>
-                                        <input id="mc4wp_email" class="form-control" required=""
-                                            placeholder="أدخل بريدك الإلكتروني" name="EMAIL" type="email">
+                                        <input id="mc4wp_email" class="form-control" required="" placeholder="أدخل بريدك الإلكتروني" name="EMAIL" type="email">
                                     </p>
                                     <p>
                                         <input class="btn btn-default" value="اشترك الآن" type="submit">
@@ -1851,21 +2749,41 @@
                                 </div>
                             </div>
                         </div>
+    
                     </div>
+                    <!-- نهاية .col-md-4 -->
+    
                 </div>
+                <!-- نهاية .row -->
+    
             </div>
+            <!-- نهاية .container -->
+    
         </section>
-
+        <!-- نهاية .footer-widget-area -->
+    
+        <!-- محتوى التذييل -->
+    
         <section class="footer-contents">
+    
             <div class="container">
+    
                 <div class="row clearfix">
+    
                     <div class="col-md-12 col-sm-12 text-center">
-                        <p class="copyright-text" style="color: #990000">حقوق النشر - أصدقاء الدم بواسطة بيبو. جميع
-                            الحقوق محفوظة.</p>
+                        <p class="copyright-text" style="color: #990000"> حقوق الطبع والنشر - Blood Buddies بواسطة Bebo. جميع الحقوق محفوظة. </p>
                     </div>
+                    <!-- نهاية .col-sm-6 -->
+    
                 </div>
+                <!-- نهاية .row -->
+    
             </div>
+            <!-- نهاية .container -->
+    
         </section>
+        <!-- نهاية .footer-content -->
+    
     </footer>
 
 
