@@ -6464,6 +6464,7 @@ span.border-bold-dashed {
 
     a.logo {
         text-align: center;
+        width: 50%;
     }
 
     .navbar-default .navbar-nav li ul.drop-down {
@@ -7106,8 +7107,19 @@ span.border-bold-dashed {
 
     a.logo {
         text-align: center;
-        width: 75%;
+        width: 50%;
     }
+
+    .about-footer .row {
+        display: flex;
+        align-items: center; /* توسيط عمودي */
+        justify-content: center; /* توسيط أفقي */
+        text-align: center; /* جعل النص في المنتصف */
+    }
+    
+   
+    
+    
 
     .navbar-default .navbar-toggle {
         margin: 20px 0 0 0;

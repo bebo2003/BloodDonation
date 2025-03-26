@@ -6627,6 +6627,7 @@ span.border-bold-dashed {
     }
     a.logo {
         text-align: center;
+        width: 50%;
     }
     .navbar-default .navbar-nav li ul.drop-down {
         top: 68px;
@@ -7143,8 +7144,23 @@ span.border-bold-dashed {
     }
     a.logo {
         text-align: center;
-        width: 75%;
+        width: 50%;
     }
+
+    .about-footer .row {
+        display: flex;
+        align-items: center; /* توسيط عمودي */
+        justify-content: center; /* توسيط أفقي */
+        text-align: center; /* جعل النص في المنتصف */
+    }
+    
+    .about-footer .col-lg-9 {
+        display: flex;
+        align-items: center; /* توسيط النص عموديًا */
+        justify-content: center; /* توسيط النص أفقيًا */
+    }
+    
+    
     .navbar-default .navbar-toggle {
         margin: 20px 0 0 0;
         padding: 5px 3px;
