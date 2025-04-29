@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنقاذ</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../../../../../WhatsApp Image 2025-04-28 at 14.15.30_6e534a8a.png" />
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: white;
+        }
+
+        /* Navbar */
+        .header-wrapper {
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .navbar-header {
+            display: flex;
+            align-items: center;
+            order: 2;
+            /* خلي الشعار بعد القوائم */
+        }
+
+        .navbar-header .logo img {
+            max-width: 150px;
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 28px;
+            background: none;
+            border: none;
+            color: #0070c4;
+            cursor: pointer;
+            order: 1;
+        }
+
+        .navbar-collapse {
+            flex-grow: 1;
+            order: 1;
+        }
+
+        .navbar-nav {
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .navbar-nav li {
+            text-align: center;
+        }
+
+        .navbar-nav li a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .navbar-nav li a i {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 3px solid #ccc;
+            text-align: center;
+            line-height: 50px;
+            font-size: 28px;
+            background: #0070c4;
+            color: #fcf9ea;
+        }
+
+        .navbar-nav li a:hover {
+            color: #0056b3;
+        }
+
+        .translate-button {
+            display: flex;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .translate-button:hover {
+            background-color: #990000;
+        }
+
+        /* Videos Section */
+        .videos-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .video-box {
+            border: 5px solid #f9c74f;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+            width: 45%;
+        }
+
+        .video-box video {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: row;
+                position: relative;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .navbar-collapse {
+                display: none;
+                width: 100%;
+            }
+
+            .navbar-collapse.active {
+                display: block;
+                margin-top: 20px;
+            }
+
+            .navbar-nav {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .video-box {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <section class="header-wrapper navigation-wrapper">
+        <div class="navbar container">
+
+            <!-- زرار منيو للموبايل -->
+            <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+
+            <!-- القوائم -->
+            <div class="navbar-collapse" id="navbarMenu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="../index.html">
+                            <i class="fa fa-home"></i>
+                            <span>الرئيسية</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="../about/templates.bwlthemes.com (1)/templates.bwlthemes.com/blood_donation/v_2/about-us.html">
+                            <i class='fa fa-book'></i>
+                            <span>من نحن</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="../event/templates.bwlthemes.com (2)/templates.bwlthemes.com/blood_donation/v_2/events.html">
+                            <i class='fa fa-stethoscope'></i>
+                            <span>اماكنا</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="../contact/templates.bwlthemes.com (4)/templates.bwlthemes.com/blood_donation/v_2/contact.html">
+                            <i class='fa fa-user'></i>
+                            <span>تواصل معنا</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-play-circle"></i>
+                            <span>شاهدنا</span>
+                        </a>
+                    </li>
+                    <div id="google_translate_element" class="translate-button"></div>
+                </ul>
+            </div>
+
+            <!-- شعار الموقع -->
+            <div class="navbar-header">
+                <a class="logo" href="#">
+                    <img src="../WhatsApp Image 2025-04-28 at 14.15.30_6e534a8a.png" alt="شعار الموقع">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos-section" class="videos-section">
+        <h2>شاهد فيديوهاتنا</h2>
+        <div class="video-container">
+            <div class="video-box">
+                <video controls poster="../Screenshot 2025-04-29 014341.png">
+                    <source src="../Video.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+            </div>
+            <div class="video-box">
+                <video controls poster="../heart.png">
+                    <source src="../Video2.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- سكريبت لزر المنيو -->
+    <script>
+        function toggleMenu() {
+            document.getElementById('navbarMenu').classList.toggle('active');
+        }
+    </script>
+
+    <!-- ترجمة جوجل -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ar',
+                includedLanguages: 'ar,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>
